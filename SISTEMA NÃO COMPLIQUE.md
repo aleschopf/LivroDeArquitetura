@@ -8,13 +8,13 @@ Esta parte defende a simplicidade como princípio central na arquitetura de soft
 - **Velocidade de desenvolvimento**: Sistemas simples são mais rápidos de construir, testar e implantar.
 - **Facilidade de manutenção**: Quanto menos complexo, mais fácil é entender, modificar e corrigir bugs.
 - **Redução de falhas**: Complexidade é inimiga da confiabilidade; cada parte adicional aumenta a superfície de ataque e a probabilidade de erro.
-- **Escalabilidade**: Sistemas simples são often easier to scale porque há menos interdependências inesperadas.
-- **Custo**: Menos código e menos Moving parts geralmente significam custos de desenvolvimento e operação menores.
+- **Escalabilidade**: Sistemas simples são frequentemente mais fáceis de escalar porque há menos interdependências inesperadas.
+- **Custo**: Menos código e menos partes móveis geralmente significam custos de desenvolvimento e operação menores.
 - **Agilidade**: Simplicidade permite responder mais rápido a mudanças de requisito ou de mercado.
 
 ### Princípios Gerais
 1. **Comece simples**: Comece com a solução mais simples que possa funcionar e só adicione complexidade quando realmente necessário.
-2. **YAGNI (You Aren't Gonna Need It)**: Não implemente recursos ou abstrações antecipadamente; espere até que a necessidade seja real.
+2. **YAGNI (*You Aren't Gonna Need It*)**: Não implemente recursos ou abstrações antecipadamente; espere até que a necessidade seja real.
 3. **DRY, mas com cautela**: Evite repetições, mas não crie abstrações prematuras apenas para eliminar pequena duplicação.
 4. **Limite o escopo**: Cada componente, serviço ou módulo deve ter uma responsabilidade bem definida e limitada.
 5. **Escolha a ferramenta mais simples**: Quando houver múltiplas opções que atendam aos requisitos, escolha a que for mais simples de entender e operar.
@@ -33,7 +33,7 @@ Esta parte defende a simplicidade como princípio central na arquitetura de soft
 - **Use nomes descritivos**: Nomes bons reduzem a necessidade de comentários e facilitam o autocompreensão do código.
 - **Documentar decisões de simplicidade**: Quando você escolher uma abordagem mais simples, registre o porquê (pode ser um ADR leve).
 
-### Checklist para "NÃƒO COMPLIQUE"
+### Checklist para "NÃO COMPLIQUE"
 Ao projetar, implementar ou revisar um sistema, pergunte-se:
 
 - [ ] Este recurso ou abstração é realmente necessário agora? (YAGNI)
@@ -54,17 +54,17 @@ Ao projetar, implementar ou revisar um sistema, pergunte-se:
 ### Caso 1: Escolhendo entre um Framework Pesado e uma Biblioteca Leve
 - **Contexto**: Uma equipe precisa construir uma API web para um aplicativo de médio porte.
 - **Aplicação do princípio**:
-  - **Opção 1**: Usar um framework full-featured (como Django ou Ruby on Rails) que oferece ORM, autenticação, admin interface, etc., prontos para uso.
-  - **Opção 2**: Usar uma biblioteca leve (como Flask ou Express) e adicionar apenas os componentes necessários (como um ORM simples ou middleware de autenticação).
+  - **Opção 1**: Usar um framework *full-featured* (como Django ou Ruby on Rails) que oferece ORM, autenticação, *admin interface*, etc., prontos para uso.
+  - **Opção 2**: Usar uma biblioteca leve (como Flask ou Express) e adicionar apenas os componentes necessários (como um ORM simples ou *middleware* de autenticação).
   - **Decisão**: A equipe escolheu a opção leve porque:
     - O aplicativo não precisava da maioria dos recursos do framework pesado.
-    - A leveza permitiu que a equipe entendesse completamente cada parte do stack.
+    - A leveza permitiu que a equipe entendesse completamente cada parte do *stack*.
     - Quando precisaram de um recurso específico (como autenticação OAuth), foram capazes de integrar uma biblioteca bem escolhida sem lutar com as convenções do framework.
     - O resultado foi um código base menor, mais fácil de depurar e mais rápido para iniciar desenvolvimento.
 - **Resultado**: Apesar de inicialmente parecer que o framework pesado economizaria tempo, a abordagem simples resultou em menor custo de aprendizado, maior agilidade e menos surpresas durante o desenvolvimento.
 
 ### Caso 2: Resistindo à Criação de uma Camada de Abstração Prematura
-- **Contexto**: Um projeto começou a acessar diferentes tipos de bancos de dados (SQL e NoSQL) e a equipe考虑 criar uma camada de repositório genérica.
+- **Contexto**: Um projeto começou a acessar diferentes tipos de bancos de dados (SQL e NoSQL) e a equipe considerou criar uma camada de repositório genérica.
 - **Aplicação do princípio**:
   - **Análise**: 
     - As consultas eram bastante diferentes entre os dois tipos de banco (SQL estruturado vs. documentos flexíveis).
@@ -72,7 +72,7 @@ Ao projetar, implementar ou revisar um sistema, pergunte-se:
     - Criar uma abstração genérica exigiria lidar com o menor denominador comum ou tornar a interface complexa para suportar recursos específicos de cada banco.
   - **Decisão**: Em vez de uma camada de abstração unificada, a equipe decidiu:
     - Manter repositórios separados para cada tipo de banco, com interfaces adaptadas ao seu modelo de dados.
-    - Donde houvesse sobreposição lógica (como operações de CRUD básicas), usar nomes de métodos consistentes, mas deixar a assinatura e o comportamento refletirem as particularidades de cada banco.
+    - Onde houvesse sobreposição lógica (como operações de CRUD básicas), usar nomes de métodos consistentes, mas deixar a assinatura e o comportamento refletirem as particularidades de cada banco.
     - Se no futuro precisassem de um terceiro tipo de banco, reavaliariam então se uma abstração faz sentido.
 - **Resultado**: Evitaram uma camada de abstração que seria difícil de obter certa e que adicionaria uma camada de complexidade desnecessária ao código. O código permaneceu direto e cada parte era fácil de entender em seu contexto.
 
@@ -85,7 +85,7 @@ Ao projetar, implementar ou revisar um sistema, pergunte-se:
 - Modelos de linguagem grande analisando código ou descrições de arquitetura para propor maneiras de remover complexidade desnecessária (ex: detectar fábricas abstratas usadas apenas uma vez).
 
 ### Movimento pelo Código Legível e Baixa Surpresa
-- Ênfase crescente em práticas que tornam o comportamento do sistema previsível e o código fácil de ler por humanos, mesmo que isso signifique usar construções "menos avançadas" em alguns casos.
+- Ênfase crescente em práticas que tornam o comportamento do sistema previsível e o código fácil de ler por humanos, mesmo que isso signique usar construções "menos avançadas" em alguns casos.
 
 ## Resumo
 

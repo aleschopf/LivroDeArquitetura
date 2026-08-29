@@ -35,12 +35,12 @@ Uma abordagem comum é usar três camadas:
    - **Exemplo**: "Estamos adotando microserviços para permitir que equipes independentes desenvolvam e implantem funcionalidades mais rapidamente, melhorando nosso tempo de mercado e capacidade de escalar partes específicas do sistema conforme a demanda."
 
 2. **Camada 2: Explicação Intermediária (Technical Overview)**
-   - **Objetivo**: Fornecer suficiente detalhe para que um profissional técnico compreenda a essência sem se perder em minutiae.
+   - **Objetivo**: Fornecer suficiente detalhe para que um profissional técnico compreenda a essência sem se perder em minúcias.
    - **Duração**: 5 a 15 minutos.
    - **Conteúdo**:
      - Componentes principais e suas responsabilidades.
      - Interações principais (fluxos de dados, chamadas de API).
-     - Decisões arquiteturais-chave e trade-offs considerados.
+     - Decisões arquiteturais-chave e *trade-offs* considerados.
      - Evidências ou razões por trás das escolhas.
    - **Público-alvo**: Desenvolvedores, arquitetos, gerentes de engenharia.
    - **Exemplo**: "Nosso sistema consiste em três containers principais: uma aplicação web React, uma API de pedidos Node.js/Express e um worker de processamento de imagem Python. A comunicação entre a web e a API ocorre via REST/JSON, enquanto a API publica eventos de 'pedido criado' em um RabbitMQ, que o worker consome para processar imagens assincronamente. Escolhemos essa arquitetura para separar preocupações, permitir escalonamento independente do worker e usar tecnologia adequada para cada tarefa."
@@ -66,7 +66,7 @@ Uma abordagem comum é usar três camadas:
 - **Explicação Intermediária**:
   - Introduza termos técnicos necessários, mas mantenha explicações acessíveis.
   - Mostre como as peças se encaixam; não é necessário listar cada classe ou função.
-  - Destaque as decisões que são não óbvias ou que envolvem trade-offs significativos.
+  - Destaque as decisões que são não óbvias ou que envolvem *trade-offs* significativos.
 - **Detalhe Profundo**:
   - Seja exaustivo dentro do escopo definido.
   - Inclua código de exemplo, configurações e scripts quando relevante.
@@ -97,7 +97,7 @@ Ao preparar uma explicação de um conceito arquitetural, verifique:
     - "Vamos usar um agente de mensagens (Apache Kafka) como nossa espinha dorsal. Serviços publicarão eventos em tópicos quando algo importante acontecer (ex: 'PedidoConfirmado'), e outros serviços se inscreverão nesses tópicos para reagir. Isso reduz o acoplamento direto entre serviços e nos dá buffer para lidar com variações de carga."
     - Incluiria um diagrama simples de produtores, tópicos e consumidores.
   - **Detalhe Profundo (Equipe de Operações e Engenheiros)**:
-    - Detalharia a configuração do Kafka (número de partições, fator de réplica), estratégias de serialização (Avro vs. JSON), tratamento de poison pills, monitoramento de lag de consumidores, plano de capacidade para o cluster Kafka, e como isso se integra ao nosso pipeline de CI/CD e ferramentas de tracing distribuído.
+    - Detalharia a configuração do Kafka (número de partições, fator de réplica), estratégias de serialização (Avro vs. JSON), tratamento de *poison pills*, monitoramento de *lag* de consumidores, plano de capacidade para o cluster Kafka, e como isso se integra ao nosso pipeline de CI/CD e ferramentas de *tracing* distribuído.
 - **Resultado**: Cada audiência recebeu o nível de detalhe apropriado, economizando tempo e aumentando a compreensão e o engajamento.
 
 ### Caso 2: Explicando o Padrão Cache-Aside para uma Revisão de Arquitetura
@@ -106,16 +106,16 @@ Ao preparar uma explicação de um conceito arquitetural, verifique:
   - **Visão Geral**: 
     - "Usamos um cache na frente do nosso banco de dados para reduzir latência e carga, buscando dados no cache primeiro e somente indo ao banco se não estiver lá."
   - **Explicação Intermediária**:
-    - "Quando uma requisição de leitura chega, verificamos o Redis. Se hitter, retornamos imediatamente. Se misser, buscamos no PostgreSQL, armazenamos o resultado no Redis com um TTL de 5 minutos e então retornamos. Escritas vão diretamente para o banco e invalidam a entrada correspondente no cache após a confirmação da escrita."
+    - "Quando uma requisição de leitura chega, verificamos o Redis. Se houver um *hit*, retornamos imediatamente. Se houver um *miss*, buscamos no PostgreSQL, armazenamos o resultado no Redis com um TTL de 5 minutos e então retornamos. Escritas vão diretamente para o banco e invalidam a entrada correspondente no cache após a confirmação da escrita."
     - Incluiria pseudocódigo ou um fluxograma simples.
   - **Detalhe Profundo**:
-    - Escolha do Redis (versão, topologia de cluster), política de TTL e por que 5 minutos, estratégia de invalidamento de escrita (delete vs. update), tratamento de falhas de cache (fallback para banco, circuit breaker), métricas de hit/miss que monitoramos, testes de carga que validaram a escolha do tamanho do cache, e como isso se integra ao nosso modelo de consistência (eventual com janela de inconsistência).
-- **Resultado**: A equipe pôde discutir imediatamente os trade-offs e os pontos de atenção necessários para operar o sistema em produção.
+    - Escolha do Redis (versão, topologia de cluster), política de TTL e por que 5 minutos, estratégia de invalidamento de escrita (*delete* vs. *update*), tratamento de falhas de cache (*fallback* para banco, *circuit breaker*), métricas de *hit*/*miss* que monitoramos, testes de carga que validaram a escolha do tamanho do cache, e como isso se integra ao nosso modelo de consistência (eventual com janela de inconsistência).
+- **Resultado**: A equipe pôde discutir imediatamente os *trade-offs* e os pontos de atenção necessários para operar o sistema em produção.
 
 ## Tendências Futuras
 
 ### Explicação Adaptativa com Base em Feedback em Tempo Real
-- Sistemas que ajustam o nível de detalhe apresentado com base em interações do usuário (ex: tempo gasto em uma página, perguntas feitas em um chatbot) durante a consumo de documentação.
+- Sistemas que ajustam o nível de detalhe apresentado com base em interações do usuário (ex: tempo gasto em uma página, perguntas feitas em um chatbot) durante o consumo de documentação.
 
 ### IA para Geração de Explicações em Múltiplos Níveis
 - Modelos de linguagem grande que, dado um tópico técnico, produzem automaticamente versões executiva, intermediária e detalhada, economizando tempo de preparo.

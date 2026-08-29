@@ -294,7 +294,7 @@ graph TD
 - [ ] Monitorar metricas de latencia, taxas de erro e disponibilidade
 - [ ] Rastrear ocorrencias de particionamento de rede e respostas do sistema (mudanca de comportamento?)
 - [ ] Alertar sobre desvios do comportamento PACELC esperado (ex: sistema PA/EL recusando operacoes durante particionamento)
-- [ ] Testar periodicamente procedimentos de recuperacao e comportamento apos particionamento
+- [ ] Testar periodicamente procedimentos de recuperação e comportamento apos particionamento
 - [ ] Revisar se escolhas de trade-off PACELC ainda sao apropriadas baseado em mudancas de uso, volume ou requisitos de negocio
 - [ ] Coletar feedback de usuarios sobre percepcao de latencia e correcao
 

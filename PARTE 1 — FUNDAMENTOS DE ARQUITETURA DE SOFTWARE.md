@@ -2,7 +2,7 @@
 trilha: "INICIANTE"
 ---
 **Navegação:** [[MOC — TRILHA INICIANTE]]
-← [[PARTE 0 — MAPA DA DOCUMENTACAO]] | #trilha/iniciante | [[PARTE 2 — REQUISITOS E DECISOES ARQUITETURAIS]] →
+← [[PARTE 0 — MAPA DA DOCUMENTAÇÃO]] | #trilha/iniciante | [[PARTE 2 — REQUISITOS E DECISÕES ARQUITETURAIS]] →
 
 ---
 # PARTE 1 — FUNDAMENTOS DE ARQUITETURA DE SOFTWARE
@@ -63,7 +63,7 @@ Organização dos recursos de computação, rede e storage que suportam o sistem
 - Evoluir a arquitetura conforme o sistema cresce e muda
 
 ### tomada de decisão
-Arquitéticos tomam decisões baseadas em:
+Arquitetos tomam decisões baseadas em:
 - Requisitos funcionais e não-funcionais
 - Restrições (tempo, orçamento, tecnologia existente)
 - atributos de qualidade (performance, segurança, escalabilidade, etc.)
@@ -347,7 +347,7 @@ def get_user(user_id):
   - Load balancing entre AZs
   - Bancos de dados com replicação síncrona entre AZs
   - Failover automático em menos de 30 segundos
-  - Backup diário com recuperación point-in-time
+  - Backup diário com recuperação point-in-time
   - Testes regulares de failover (chaos engineering)
   - Monitoramento de saúde de todos os componentes
 

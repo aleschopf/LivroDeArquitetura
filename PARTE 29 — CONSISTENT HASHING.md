@@ -2,7 +2,7 @@
 trilha: "AVANÇADA"
 ---
 **Navegação:** [[MOC — TRILHA AVANÇADA]]
-← [[PARTE 28 — SHARDING ou PARTITIONING]] | #trilha/avancada | [[PARTE 30 — CACHING]] →
+← [[PARTE 28 — SHARDING — PARTITIONING]] | #trilha/avancada | [[PARTE 30 — CACHING]] →
 
 ---
 # PARTE 29 — CONSISTENT HASHING

@@ -17,7 +17,7 @@ Esta parte fornece uma coleção de exercícios práticos para reforço do apren
 2. **Baseie-se em cenários realistas**: Use problemas e restrições que se assemelhem aos encontrados em projetos reais.
 3. **Incentive a justificativa**: O valor está no processo de pensamento, não apenas na solução final.
 4. **Forneça feedback quando possível**: Comparar soluções com respostas referência ou discutir em grupo melhora o aprendizado.
-5. **Varie os tipos de exercício**: Inclua design de sistema, análise de trade-offs, revisão de arquitetura existente e outros formatos.
+5. **Varie os tipos de exercício**: Inclua design de sistema, análise de *trade-offs*, revisão de arquitetura existente e outros formatos.
 6. **Documente pressupostos**: Deixe claro quais suposições estão sendo feitas, pois elas afetam significativamente as soluções.
 7. **Itere e refine**: Volte aos exercícios após aprender mais para ver como sua abordagem evolui.
 
@@ -26,11 +26,11 @@ Esta parte fornece uma coleção de exercícios práticos para reforço do apren
 ### Tipos de Exercício Úteis para Arquitetura
 1. **Design de Sistema do Zero**: Projetar uma arquitetura para um problema descrito (ex: criar um serviço de streaming de vídeo).
 2. **Análise de Arquitetura Existente**: Avaliar os prós e contras de uma arquitetura descrita ou diagramada.
-3. **Comparação de Alternativas**: Dados dois ou mais abordagens, analisar trade-offs e recomendar uma.
+3. **Comparação de Alternativas**: Dados dois ou mais abordagens, analisar *trade-offs* e recomendar uma.
 4. **Evolução de Arquitetura**: Descrever como mudar uma arquitetura de estado A para estado B.
 5. **Identificação de Riscos**: Dada uma arquitetura proposta, apontar possíveis problemas e como mitigá-los.
-6. **Trade-off Analysis**: Dado um cenário, explorar como mudar o peso em um atributo não-funcional afeta outros.
-7. **Revisão de Decisão**: Analisar uma decisão arquitetural passada com o benefício do retrospecitvo.
+6. **Análise de *trade-offs***: Dado um cenário, explorar como mudar o peso em um atributo não-funcional afeta outros.
+7. **Revisão de Decisão**: Analisar uma decisão arquitetural passada com o benefício do retrospectivo.
 8. **Exercício de Comunicação**: Explicar um conceito arquitetural para diferentes públicos-alvo.
 9. **Exercício de Limitação**: Projetar uma solução sob restrições específicas (orçamento baixo, time curto, equipe pequena).
 10. **Exercício de Escala**: Começar com uma solução para pequena escala e projetar como evoluir para grande escala.
@@ -51,7 +51,7 @@ Ao criar um exercício, verifique se ele:
 - [ ] Inclui restrições e requisitos não-funcionais relevantes?
 - [ ] Foca em conceitos ou habilidades específicas de arquitetura?
 - [ ] Permite múltiplas abordagens válidas (não tem uma única "resposta correta")?
-- [ ] Incentiva a consideração de trade-offs e alternativas?
+- [ ] Incentiva a consideração de *trade-offs* e alternativas?
 - [ ] Pode ser completado em um tempo razoável (dependendo do contexto: 30 min para entrevista, algumas horas para estudo)?
 - [ ] Deixa claro quais pressupostos estão sendo feitos?
 - [ ] Inclui elementos que incentivam a pensar além da solução imediata (ex: evolução futura, manutenibilidade)?
@@ -61,12 +61,12 @@ Ao criar um exercício, verifique se ele:
 ### Diretrizes para Resolução de Exercícios
 Ao trabalhar em um exercício de arquitetura, considere:
 
-1. **Entender completamente o problema**: Antes de solutionar, assegure-se de compreender o que está sendo pedido e quais são as restrições.
+1. **Entender completamente o problema**: Antes de solucionar, assegure-se de compreender o que está sendo pedido e quais são as restrições.
 2. **Esboçar múltiplas abordagens**: Não se fixe na primeira ideia que vem à mente.
 3. **Justificar decisões**: Para cada escolha significativa, explique o porquê baseando-se no contexto fornecido.
 4. **Considerar o que não está sendo dito**: Quais perguntas você faria se pudesse conversar com o dono do problema?
 5. **Pensar em não-funcionais**: Não esqueça de escalabilidade, desempenho, segurança, operabilidade, etc.
-6. **Olhar para trade-offs**: Quais são as compensações significativas da sua escolha?
+6. **Olhar para *trade-offs***: Quais são as compensações significativas da sua escolha?
 7. **Planejar para evolução**: Como sua arquitetura lidaria com mudanças razoáveis nos requisitos?
 8. **Comunicar claramente**: Se for para entregar uma resposta, estruture-a de forma que seja fácil de seguir.
 9. **Refletir após completar**: O que você aprendeu? O que faria diferente se tivesse mais tempo ou informação?
@@ -89,7 +89,7 @@ Ao trabalhar em um exercício de arquitetura, considere:
 - **Lição**: Exercícios de arquitetura precisam de restrições claras e realistas para direcionar o foco para os desafios técnicos desejados, em vez de decisões de produto ou escopo.
 
 ### Caso 2: Exercício que Ensina Arquitetura Evolutiva
-- **Contexto**: Em um curso de arquitetura, foi dado o seguinte exercício: "Projete um sistema de processamento de pedidos que inicialmente precisa apenas validar e armazenar pedidos, mas pode precisar de fraud detection, integração com múltiplos provedores de pagamento e geração de relatórios de vendas no futuro."
+- **Contexto**: Em um curso de arquitetura, foi dado o seguinte exercício: "Projete um sistema de processamento de pedidos que inicialmente precisa apenas validar e armazenar pedidos, mas pode precisar de detecção de fraude, integração com múltiplos provedores de pagamento e geração de relatórios de vendas no futuro."
 - **O que aconteceu**:
   - Estudantes inicialmente projetaram sistemas complexos tentando antecipar todas as futuras necessidades.
   - Alguns reconheceram a incerteza e propuseram abordagens mais simples inicialmente, com pontos claros de extensão.
@@ -99,16 +99,16 @@ Ao trabalhar em um exercício de arquitetura, considere:
   - Estudantes relataram que o exercício mudou sua perspectiva sobre quando adicionar flexibilidade versus manter simplicidade.
   - Muitos começaram a incluir explicitamente em suas soluções notas sobre como evoluir para futuros requisitos.
   - O exercício foi elogiado por ensinar não apenas arquitetura inicial, mas também mentalidade de evolvibilidade.
-- **Lição**: Exercícios que incorporam incerteza sobre requisitos futuros são excelentes para ensinar princípios de arquitetura evolutiva e evitar over-engineering.
+- **Lição**: Exercícios que incorporam incerteza sobre requisitos futuros são excelentes para ensinar princípios de arquitetura evolutiva e evitar *over-engineering*.
 
 ### Caso 3: Exercício de Revisão que Desenvolve Espírito Crítico
 - **Contexto**: Foi fornecido um diagrama de arquitetura de um sistema de reservas de hotéis com diversos componentes e tecnologias, e pediu-se para identificar problemas potenciais.
 - **O que aconteceu**:
   - Inicialmente, muitos estudantes focaram apenas em dizer se gostavam ou não da arquitetura.
-  - Com orientação, começaram a analisar aspectos específicos: pontos únicos de falha, consistência de dados entre componentes, escalabilidade de partes específicas, facilidade de deploy e monitoramento.
+  - Com orientação, começaram a analisar aspectos específicos: pontos únicos de falha, consistência de dados entre componentes, escalabilidade de partes específicas, facilidade de *deploy* e monitoramento.
   - Alguns identificaram que o serviço de reservas dependia diretamente de um serviço de avaliações lento, criando um gargalo de desempenho desnecessário.
-  - Outros notaram que a estratégia de caching escolhida poderia levar a inconsistências visíveis ao usuário em certos cenáriosshared).
-  - A discussão evoluiu para propor melhorias específicas e analisar seus trade-offs.
+  - Outros notaram que a estratégia de caching escolhida poderia levar a inconsistências visíveis ao usuário em certos cenários.
+  - A discussão evoluiu para propor melhorias específicas e analisar seus *trade-offs*.
 - **Resultado**:
   - Estudantes desenvolveram habilidade de olhar além da superfície e analisar arquiteturas de forma crítica.
   - Aprenderam a distinguir entre diferentes tipos de problemas (desempenho, manutenibilidade, risco, etc.).
@@ -124,7 +124,7 @@ Ao trabalhar em um exercício de arquitetura, considere:
 - Exercícios que ajustam dificuldade ou foco com base nas respostas anteriores do estudante, destacando áreas que precisam de mais prática.
 
 ### Integração com Estudos de Caso Reais
-- Usar arquiteturas de sistemas reais (anonymizadas ou com permissão) como base para exercícios, proporcionando contexto autêntico.
+- Usar arquiteturas de sistemas reais (anonimizadas ou com permissão) como base para exercícios, proporcionando contexto autêntico.
 
 ### Gamificação do Aprendizado de Arquitetura
 - Pontuação, níveis e desafios que incentivam a prática regular e a melhoria contínua de habilidades arquiteturais.
@@ -136,6 +136,6 @@ Ao trabalhar em um exercício de arquitetura, considere:
 
 Os exercícios são uma ferramenta poderosa para transformar conhecimento teórico de arquitetura de software em habilidade prática. Ao projetar ou trabalhar em exercícios bem estruturados, estudantes e profissionais podem melhorar significativamente sua capacidade de aplicar conceitos arquiteturais em situações do mundo real, desenvolver julgamento crítico e se preparar para desafios como entrevistas de arquitetura e projetos complexos.
 
-Lembre-se de que o verdadeiro valor de um exercício não está em obter a "resposta correta", mas no processo de pensamento, nas trade-offs considerados, nas perguntas feitas e nas lições aprendidas durante a tentativa de solução. Ao abordar exercícios com mentalidade de aprendizado e melhoria contínua, você assegura que seu tempo investido em prática se traduza em crescimento real como arquiteto de software.
+Lembre-se de que o verdadeiro valor de um exercício não está em obter a "resposta correta", mas no processo de pensamento, nas *trade-offs* considerados, nas perguntas feitas e nas lições aprendidas durante a tentativa de solução. Ao abordar exercícios com mentalidade de aprendizado e melhoria contínua, você assegura que seu tempo investido em prática se traduza em crescimento real como arquiteto de software.
 
 Seja criativo na escolha ou criação de exercícios, foque em desafios que o empurrem além da zona de conforto, e sempre reserve tempo para refletir sobre o que aprendeu e como poderia abordar coisas diferentes da próxima vez. A jornada de se tornar um arquiteto melhor é feita de prática deliberada, reflexão e aplicação constante dos conceitos aprendidos.

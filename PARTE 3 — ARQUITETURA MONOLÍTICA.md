@@ -2,10 +2,10 @@
 trilha: "INICIANTE"
 ---
 **Navegação:** [[MOC — TRILHA INICIANTE]]
-← [[PARTE 11 — DESIGN PATTERNS]] | #trilha/iniciante | [[PARTE 4 — ARQUITETURA EM CAMADAS]] →
+← [[PARTE 11 — DESIGN PATTERNS]] | #trilha/iniciante | [[PARTE 4 — arquitetura EM CAMADAS]] →
 
 ---
-# PARTE 3 — ARQUITETURA MONOLÍTICA
+# PARTE 3 — arquitetura MONOLÍTICA
 
 > 🧠 **ESSENCIAL**
 > 
@@ -39,10 +39,10 @@ Historicamente, a maioria dos sistemas foi construída como monolitos porque era
 6. Monitore performance e logs apesar da arquitetura simples
 
 ### Quais são as alternativas?
-- Arquitetura em camadas (3-tier, N-tier)
+- arquitetura em camadas (3-tier, N-tier)
 - Clean Architecture / Hexagonal / Onion
 - Microservices
-- Arquitetura baseada em eventos
+- arquitetura baseada em eventos
 - Serverless
 - Monolito modular (versão evoluída do monolito tradicional)
 
@@ -199,7 +199,7 @@ Como resposta aos problemas de monolitos tradicionais que se tornavam "big balls
 - Monolito tradicional (menos estruturado)
 - Clean Architecture / Hexagonal (foca mais em inversão de dependência)
 - Microservices (mais complexo operacionalmente)
-- Arquitetura baseada em plugins
+- arquitetura baseada em plugins
 - Modularização através de bibliotecas compartilhadas (jars internos)
 
 ### Quais são os trade-offs?
@@ -384,10 +384,10 @@ Um monolito distribuído pode se referir a duas coisas:
 
 ### Quais são as alternativas?
 - Monolito tradicional ou modular (para evitar complexidade desnecessária)
-- Arquitetura de microservices propriamente dita (quando se quer total independência)
-- Arquitetura baseada em eventos
-- Arquitetura serverless
-- Arquitetura de funções (FaaS)
+- arquitetura de microservices propriamente dita (quando se quer total independência)
+- arquitetura baseada em eventos
+- arquitetura serverless
+- arquitetura de funções (FaaS)
 
 ### Quais são os trade-offs?
 **Vantagens (quando intencional e bem feito):**
@@ -457,10 +457,10 @@ Um monolito distribuído pode se referir a duas coisas:
 - **(Neutro/Intencional)** Sistemas onde se quer separar claramente funções de front-office e back-office
 - Plataformas onde módulos de alto tráfego (como busca) são separados de funções de administração
 - Sistemas onde se quer isolar componentes de pagamento ou outras funções sensíveis a regulamentação
-- Arquiteturas onde se quer testar gradualmente a extração de serviços antes de comprometer totalmente com microservices
+- arquiteturas onde se quer testar gradualmente a extração de serviços antes de comprometer totalmente com microservices
 
 ### Exemplo simplificado
-Arquitetura de um sistema de transporte urbano:
+arquitetura de um sistema de transporte urbano:
 - Monolito 1: Gestão de usuários e contas (CADASTRO)
 - Monolito 2: Planejamento de rotas e horários (PLANEJAMENTO)
 - Monolito 3: Venda de passagens e pagamento (VENDA)
@@ -619,7 +619,7 @@ Senão → Avaliar especificamente (considerar monolito modular como intermediá
 > Sempre que discutir vantagens e desvantagens, relacione-as ao contexto específico - não trate universais como absolutos.
 
 ### Vantagens Principais
-1. **Simplicidade de desenvolvimento:** Menos moving parts, mais fácil de entender o sistema como um todo
+1. **Simplicidade de desenvolvimento:** Menos partes m�veis, mais fácil de entender o sistema como um todo
 2. **Performance inicial excelente:** Sem overhead de rede entre componentes para chamadas de método
 3. **Deploy simples:** Uma única unidade para build, teste e deploy
 4. **Facilidade de teste:** Testes end-to-end mais simples; menos necessidade de mocks complexos

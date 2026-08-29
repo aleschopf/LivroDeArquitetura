@@ -2,7 +2,7 @@
 trilha: "INICIANTE"
 ---
 **Navegação:** [[MOC — TRILHA INICIANTE]]
-← [[PARTE 4 — ARQUITETURA EM CAMADAS]] | #trilha/iniciante | [[PARTE 6 — HEXAGONAL ou PORTS AND ADAPTERS]] →
+← [[PARTE 4 — ARQUITETURA EM CAMADAS]] | #trilha/iniciante | [[PARTE 6 — HEXAGONAL — PORTS AND ADAPTERS]] →
 
 ---
 # PARTE 5 — CLEAN ARCHITECTURE

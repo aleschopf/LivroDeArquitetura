@@ -14,8 +14,8 @@ Esta parte enfatiza a importância crítica de entender o contexto de negócio a
 ### Princípios Gerais
 1. **Negócio lidera, tecnologia segue**: Decisões arquiteturais devem ser derivadas dos objetivos de negócio, não de preferências tecnológicas.
 2. **Contexto é multidimensional**: Inclui mercado, regulatório, organizacional, financeiro e cultural.
-3. **Entender antes de solutionar**: Invista tempo para compreender profundamente o problema de negócio antes de propor soluções técnicas.
-4. **Trade-offs são de negócio**: A maioria dos trade-offs arquiteturais são, em essência, decisões de negócio disfarçadas de técnicas.
+3. **Entender antes de solucionar**: Invista tempo para compreender profundamente o problema de negócio antes de propor soluções técnicas.
+4. **Trade-offs são de negócio**: A maioria dos *trade-offs* arquiteturais são, em essência, decisões de negócio disfarçadas de técnicas.
 5. **Revisão constante**: O contexto de negócio muda; a arquitetura precisa ser revisada periodicamente para manter o alinhamento.
 6. **Falar a língua do negócio**: Arquitetos precisam ser capazes de discutir receita, custos, riscos, oportunidades e métricas de negócio.
 
@@ -28,13 +28,13 @@ Esta parte enfatiza a importância crítica de entender o contexto de negócio a
 - **Identificação de métricas-chave**: Determine quais indicadores de desempenho são realmente importantes para o negócio.
 - **Análise de restrições**: Identifique limites orçamentários, prazos regulatórios, restrições de recursos e políticas organizacionais.
 - **Criação de histórias de negócio**: Use narrativas para capturar como o sistema afetará usuários e operações.
-- **Workshops de alinhamento**: Reúna técnicos e especialistas de negócio para explorar opções e trade-offs juntos.
+- **Workshops de alinhamento**: Reúna técnicos e especialistas de negócio para explorar opções e *trade-offs* juntos.
 
 ### Checklist para Avaliar o Contexto de Negócio
 Ao considerar uma decisão arquitetural, pergunte-se:
 
 - [ ] Quais objetivos de negócio esta arquitetura está tentando apoiar?
-- [ ] Como o sucesso será medido em termos de negócio (não apenas técnicos)?
+- [ ] Como o sucesso será medido em termos de negócio (not apenas técnicos)?
 - [ ] Quem são os stakeholders afetados e quais são suas preocupações?
 - [ ] Qual é a tolerância a risco da organização para esta decisão?
 - [ ] Quais são as restrições orçamentárias e de prazo?
@@ -60,7 +60,7 @@ Ao considerar uma decisão arquitetural, pergunte-se:
   - A equipe conseguiu manter velocidade de desenvolvimento durante a fase inicial.
   - Quando o produto ganhou tração e a equipe cresceu, eles tinham um código base bem estruturado que facilitou a extração de serviços específicos.
   - O investimento em operações distribuídas foi adiado até que realmente fosse necessário.
-- **Lição**: A escolha arquitetural deve considerar não apenas as necessidades técnicas atuais, mas também a capacidade da organização de operar e evoluir a solução escolhida.
+- **Lições Aprendidas**: A escolha arquitetural deve considerar não apenas as necessidades técnicas atuais, mas também a capacidade da organização de operar e evoluir a solução escolhida.
 
 ### Caso 2: Adoção de Tecnologia de Bancos de Dados Baseada em Restrições Regulatórias
 - **Contexto**: Uma fintech precisava escolher um banco de dados para armazenar dados financeiros sensíveis sujeitos a regulamentações rigorosas de residência de dados e auditoria.
@@ -75,7 +75,7 @@ Ao considerar uma decisão arquitetural, pergunte-se:
   - A equipe pôde entregar o produto rapidamente e começar a gerar receita.
   - Quando surgiram necessidades de escalabilidade extremas anos depois, eles já tinham uma base sólida para evoluir para soluções mais distribuídas.
   - Evitaram retrabalho e riscos associados à adoção prematura de tecnologia não comprovada em seu contexto regulatório específico.
-- **Lição**: Restrições regulatórias e de compliance são aspectos críticos do contexto de negócio que podem trump vantagens técnicas teóricas.
+- **Lições Aprendidas**: Restrições regulatórias e de *compliance* são aspectos críticos do contexto de negócio que podem prevalecer sobre vantagens técnicas teóricas.
 
 ### Caso 3: Arquitetura de Sistema Legado Baseada em Valor de Negócio Residual
 - **Contexto**: Uma empresa precisava decidir o destino de um sistema de processamento de pedidos crítico que era tecnicamente obsoleto, mas ainda gerava significativa receita.
@@ -84,7 +84,7 @@ Ao considerar uma decisão arquitetural, pergunte-se:
   - Havia riscos conhecidos de falha devido à tecnologia desatualizada.
   - Substituir o sistema completamente estimava-se em 18 meses e significativo custo.
   - O negócio não podia parar o processamento de pedidos durante a transição.
-- **Decisão**: Em vez de uma reescrita completa arriscada, a equipe adotou uma estratégia de estrangulamento (strangler fig pattern):
+- **Decisão**: Em vez de uma reescrita completa arriscada, a equipe adotou uma estratégia de estrangulamento (*strangler fig pattern*):
   - Criou uma camada de abstração que roteava pedidos para o sistema legado ou para novos microserviços baseado em regras de negócio.
   - Migraram funcionalidades de baixo risco e alto volume primeiro para os novos serviços.
   - Mantiveram o sistema legado operacional enquanto reduziam gradualmente sua carga.
@@ -94,7 +94,7 @@ Ao considerar uma decisão arquitetural, pergunte-se:
   - A equipe conseguiu entregar valor incrementalmente a cada microserviço migrado.
   - Quando o sistema legado finalmente foi aposentado, a transição foi suave porque os novos sistemas já estavam comprovados em produção.
   - O investimento foi distribuído ao longo do tempo, alinhando-se melhor com os ciclos orçamentários.
-- **Lição**: Em sistemas legados, o contexto de negócio muitas vezes favorece abordagens evolutivas e de baixo risco em vez de grandes bangs tecnológicos, mesmo quando a dívida técnica é alta.
+- **Lições Aprendidas**: Em sistemas legados, o contexto de negócio muitas vezes favorece abordagens evolutivas e de baixo risco em vez de grandes bangs tecnológicos, mesmo quando a dívida técnica é alta.
 
 ## Tendências Futuras
 
@@ -112,8 +112,8 @@ Ao considerar uma decisão arquitetural, pergunte-se:
 
 ## Resumo
 
-Entender o contexto de negócio não é uma atividade preliminar que se faz antes do trabalho técnico de arquitetura; é o próprio cerne da disciplina de arquitetura de software. Toda decisão arquitetural é, em última análise, uma aposta sobre como melhor apoiar os objetivos de negócio diante de restrições e uncertainties.
+Entender o contexto de negócio não é uma atividade preliminar que se faz antes do trabalho técnico de arquitetura; é o próprio cerne da disciplina de arquitetura de software. Toda decisão arquitetural é, em última análise, uma aposta sobre como melhor apoiar os objetivos de negócio diante de restrições e incertezas.
 
 Arquitetos que ignoram o contexto de negócio criam soluções tecnicamente elegantes que falham em entregar valor ou enfrentarão resistência organizacional. Aqueles que colocam o negócio no centro de seu processo de arquitetura têm muito mais probabilidade de construir sistemas que não apenas funcionam bem tecnicamente, mas também são adotados, evoluem com a empresa e contribuem diretamente para o sucesso organizacional.
 
-Lembre-se de que a melhor arquitetura é aquela que atinge os objetivos de negócio com a menorComplexidade desnecessária possível, e o único caminho para chegar lá é através de um profundo e contínuo entendimento do contexto em que o sistema existirá.
+Lembre-se de que a melhor arquitetura é aquela que atinge os objetivos de negócio com a menor complexidade desnecessária possível, e o único caminho para chegar lá é através de um profundo e contínuo entendimento do contexto em que o sistema existirá.

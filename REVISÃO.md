@@ -8,7 +8,7 @@ Esta parte fornece orientações sobre como conduzir revisões eficazes de arqui
 - **Detecção precoce de problemas**: Identificar problemas arquiteturais antes que se tornem caros de corrigir.
 - **Melhoria contínua**: Garantir que a arquitetura evolua de forma saudável ao longo do tempo.
 - **Compartilhamento de conhecimento**: Disseminar boas práticas e lições aprendidas dentro da organização.
-- **Gestão de risco**: Identificar e mitigar riscos arquiteturais que pourraient afetar o negócio.
+- **Gestão de risco**: Identificar e mitigar riscos arquiteturais que poderiam afetar o negócio.
 - **Alinhamento com objetivos**: Verificar se a arquitetura continua apoiando os objetivos de negócio conforme eles evoluem.
 - **Conformidade e padrões**: Garantir aderência a padrões técnicos, de segurança ou regulatórios quando necessário.
 
@@ -43,7 +43,7 @@ Uma revisão de arquitetura bem estruturada geralmente inclui:
 
 2. **Apresentação do Material**
    - Visão geral de alto nível da arquitetura sendo revisada
-   - Decisões chave e rationale por trás delas (se disponível)
+   - Decisões chave e racional (*rationale*) por trás delas (se disponível)
    - Estado atual de implementação e métricas relevantes
    - Áreas específicas de preocupação ou incerteza que o autor gostaria de feedback
 
@@ -51,7 +51,7 @@ Uma revisão de arquitetura bem estruturada geralmente inclui:
    - Perguntas esclarecedoras para garantir compreensão comum
    - Análise sistemática usando frameworks ou checklists relevantes
    - Identificação de pontos fortes, fraquezas, oportunidades e ameaças (SWOT simplificado)
-   - Exploração de alternativas e trade-offs
+   - Exploração de alternativas e *trade-offs*
    - Consideração de riscos e como mitigá-los
 
 4. **Síntese e Resultados**
@@ -67,9 +67,9 @@ Ao conduzir uma revisão de arquitetura, considere:
 - [ ] Os participantes representam a diversidade de expertise necessária (técnica, operacional, de negócio)?
 - [ ] O material a ser revisado está suficientemente detalhado e organizado para discussão produtiva?
 - [ ] O contexto de negócio e restrições são claramente apresentados?
-- [ ] As decisões arquiteturais chave e seu rationale são compreendidos?
+- [ ] As decisões arquiteturais chave e seu racional são compreendidos?
 - [ ] A revisão considera múltiplas dimensões (funcionalidade, desempenho, segurança, operabilidade, etc.)?
-- [ ] Trade-offs significativos são identificados e discutidos?
+- [ ] *trade-offs* significativos são identificados e discutidos?
 - [ ] Riscos e incertezas são destacados e propostas de mitigação são consideradas?
 - [ ] Pontos fortes são reconhecidos tanto quanto pontos fracos?
 - [ ] As discussões permanecem focadas e respeitosas?
@@ -81,12 +81,12 @@ Tenha em mente essas abordagens para estruturar sua análise durante uma revisã
 
 1. **Lentes de Qualidade de Sistema**: Analisar através das lentes de escalabilidade, desempenho, segurança, disponibilidade, modificabilidade, etc.
 2. **Checklist de Princípios de Arquitetura**: Verificar aderência a princípios como SOLID, DRY, Separation of Concerns, etc.
-3. **Análise de Trade-offs**: Explorar compensações em atributos não-funcionais (ex: consistência vs. disponibilidade).
+3. **Análise de *trade-offs***: Explorar compensações em atributos não-funcionais (ex: consistência vs. disponibilidade).
 4. **Mapeamento de Riscos**: Identificar riscos técnicos, operacionais e de negócio e sua probabilidade/impacto.
 5. **Análise de Dependências**: Examinar acoplamento entre componentes e pontos únicos de falha.
 6. **Revisão de Evolvibilidade**: Avaliar quão fácil seria fazer mudanças comuns no futuro.
 7. **Lente Operacional**: Considerar deploy, monitoramento, logging e resposta a incidentes.
-8. **Lente de Experiência do Desenvolvedor**: Avaliar facilidade de compreensão, desenvolvimento, teste e debug.
+8. **Lente de Experiência do Desenvolvedor**: Avaliar facilidade de compreensão, desenvolvimento, teste e *debug*.
 9. **Lente de Custo**: Estimar custos de desenvolvimento, operação e manutenção.
 10. **Lente de Conformidade**: Verificar aderência a padrões internos ou externos relevantes.
 
@@ -95,7 +95,7 @@ Tenha em mente essas abordagens para estruturar sua análise durante uma revisã
 ### Caso 1: Revisão que Evitou um Problema Grande
 - **Contexto**: Uma equipe de fintech estava prestes a lançar um novo recurso de pagamento internacional e agendou uma revisão de arquitetura antes do deploy.
 - **O que aconteceu durante a revisão**:
-  - Um arquiteto de segurança notou que o plano de criptografia de dados sensíveis em trânsito dependia de uma configuração TLS que deixava o sistema vulnerável a ataques de downgrade.
+  - Um arquiteto de segurança notou que o plano de criptografia de dados sensíveis em trânsito dependia de uma configuração TLS que deixava o sistema vulnerável a ataques de *downgrade*.
   - Um especialista em operações apontou que o novo recurso aumentaria significativamente a carga em um serviço de legado que já estava próximo de sua capacidade.
   - Um analista de negócios questionou se o recurso atendia realmente às necessidades dos usuários-alvo ou se estava resolvendo um problema hipotético.
 - **Resultado**:
@@ -127,14 +127,14 @@ Tenha em mente essas abordagens para estruturar sua análise durante uma revisã
 - **Resultado**:
   - Os sistemas de logging foram atualizados para mascarar ou remover PII antes de armazenamento, conforme as diretrizes de minimização de dados.
   - Todas as transmissões de PHI entre data centers foram migradas para usar VPNs criptografadas ou conexões de ponto a ponto com TLS mútuo.
-  - Foi implementado um processo automatizado de revogação de acesso integrado ao sistema de RH que remove acesso imediatamente upon demissão.
+  - Foi implementado um processo automatizado de revogação de acesso integrado ao sistema de RH que remove acesso imediatamente após demissão.
   - A empresa passou na auditoria de conformidade HIPAA com poucas observações menores.
 - **Lição**: Revisões de conformidade são essenciais para identificar lacunas que talvez não sejam aparentes em avaliações de desempenho ou funcionalidade, mas que têm sérias implicações legais e regulatórias.
 
 ## Tendências Futuras
 
 ### Revisões Contínuas com Integração em Pipelines de CI/CD
-- Verificações automáticas de qualidade arquitetural integradas ao processo de build e deploy, fornecendo feedback imediato sobre mudanças propostas.
+- Verificações automáticas de qualidade arquitetural integradas ao processo de *build* e deploy, fornecendo feedback imediato sobre mudanças propostas.
 
 ### IA para Auxílio em Revisões de Arquitetura
 - Sistemas que analisam diagramas, código e documentação para sugerir áreas de atenção potencial durante revisões humanas.
@@ -143,10 +143,10 @@ Tenha em mente essas abordagens para estruturar sua análise durante uma revisã
 - Visualizações contínuas de métricas de qualidade de sistema (acoplamento, complexidade, cobertura de testes, etc.) que alertam quando limites são ultrapassados.
 
 ### Revisões Baseadas em Dados de Operação Real
-- Uso crescente de dados de produção (traces distribuídos, métricas de erro, padrões de uso) para informar revisões de arquitetura com evidências concretas.
+- Uso crescente de dados de produção (*traces* distribuídos, métricas de erro, padrões de uso) para informar revisões de arquitetura com evidências concretas.
 
-### Integração com Gestão de Técnical Debt
-- Ligar explicitamente revisões de arquitetura a processos de identificação, priorização e pagamento de dívida técnica.
+### Integração com Gestão de Dívida Técnica
+- Ligar explicitamente revisões de arquitetura a processos de identificação, priorização e pagamento de Dívida Técnica.
 
 ## Resumo
 

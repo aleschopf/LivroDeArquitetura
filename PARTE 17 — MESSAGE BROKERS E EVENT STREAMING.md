@@ -329,7 +329,7 @@ public class UserEventAnalyticsConsumer {
 
 ## Exemplo real
 
-### Arquitetura de Processamento de Pagamentos do Netflix
+### arquitetura de Processamento de Pagamentos do Netflix
 
 O Netflix usa uma combinação de tecnologias de mensagem para diferentes aspectos de seu sistema de pagamentos:
 
@@ -1258,7 +1258,7 @@ flowchart TD
 - **Keep-alive connections**: Manter conexões abertas para reduzir handshake overhead
 - **Connection multiplexing**: HTTP/2, gRPC para múltiplas streams sobre mesma conexão
 - **Async I/O**: Modelos não-bloqueantes (Netty, Vert.x, async/await) para melhor utilização de threads
-- **Event loop architectures**: Arquiteturas baseadas em evento para escalar com poucos threads
+- **Event loop architectures**: arquiteturas baseadas em evento para escalar com poucos threads
 - **Memory pooling**: Reutilizar buffers de mensagem em vez de alocar novos
 - **Lock-free estruturas de dados**: Quando possível, usar estruturas que minimizem contenção
 - **NUMA awareness**: Configurar afinidade de memória e processo para melhor desempenho em sistemas multi-socket
@@ -1697,7 +1697,7 @@ flowchart TD
 - **Não monitorar adequadamente a taxa de uso da capacidade before processamento when important**: May end up with excessive or insufficient capacity use
 - **Não usar adequate message warmer for caso de use**: May end up with inconsistent performance during warmup
 - **Não validar adequadamente a entrega de vazão before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadamente o efeito de diferentes tipos de mensagem no MTTF**: May end up with unexpected reliability high or low
+- **Não considerar adequadamente o efeito de diferentes tipos de mensagem no MTTF**: May end up with unexpected Confiabilidade high or low
 - **Não ter plano de atualização de segurança seguro para infraestritura de mensagem**: May end up with vulnerable version or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de outubro before processamento when important**: May end up with very slow delivery when it shouldn't be
 - **Não usar adequate message visitor for caso de use**: May end up applying incorrect operation when it shouldn't be

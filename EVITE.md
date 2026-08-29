@@ -31,22 +31,22 @@ Antes de adotar uma prática que aparece nesta lista, pergunte-se:
 - [ ] Entendo completamente por que esta prática é considerada arriscada?
 - [ ] Tenho dados ou evidências sólidas de que, neste contexto específico, os riscos são mitigados?
 - [ ] Há alternativas menos arriscadas que eu deveria considerar primeiro?
-- [ ] Se eu proceeding, quais medidas de mitigação estou colocando em prática?
+- [ ] Se eu proceder, quais medidas de mitigação estou colocando em prática?
 - [ ] Estou preparado para lidar com as consequências negativas se elas ocorrerem apesar das mitigações?
 - [ ] Esta decisão está alinhada com a tolerância a risco da minha organização e dos stakeholders?
 - [ ] Documentei a decisão, os riscos considerados e as mitigações aplicadas (ideal como um ADR)?
 
 ## Lista de O Que Evitar
 
-### 1. **Escolher tecnologia apenas porque é nova ou estilosa (Resumo-Driven Development)**
-- **Por que evitar**: Leva a curvas de aprendizado inesperadas, falta de suporte mature, bugs não documentados e dificuldade em contratação.
+### 1. **Escolher tecnologia apenas porque é nova ou estilosa (*Resumo-Driven Development*)**
+- **Por que evitar**: Leva a curvas de aprendizado inesperadas, falta de suporte maduro, bugs não documentados e dificuldade em contratação.
 - **Quando pode ser aceitável**: Quando há uma vantagem técnica clara e mensurável que justifica o risco, e a equipe tem capacidade de absorver o novo.
 
 ### 2. **Abstração prematura ou excessiva**
 - **Por que evitar**: Adiciona complexidade sem benefício imediato, torna o código mais difícil de entender e pode não atender às necessidades reais quando elas surgirem.
 - **Quando pode ser aceitável**: Quando há padrões claros e repetitivos que são compreendidos bem e a abstração simplifica significativamente o uso.
 
-### 3. **Especulação excessiva sobre necessidades futuras (Over-engineering for hypothetical futures)**
+### 3. **Especulação excessiva sobre necessidades futuras (*Over-engineering* for hypothetical futures)**
 - **Por que evitar**: Gera código que nunca será usado, aumenta o tempo de desenvolvimento inicial e pode tornar o sistema mais rígido para mudanças reais.
 - **Quando pode ser aceitável**: Quando há um roteiro público e comprometido com alta certeza de que o recurso será necessário em um prazo curto.
 
@@ -58,7 +58,7 @@ Antes de adotar uma prática que aparece nesta lista, pergunte-se:
 - **Por que evitar**: Torna extremamente difícil diagnosticar problemas de desempenho, falhas ou comportamento inesperado em produção.
 - **Quando pode ser aceitável**: Nunca em sistemas distribuídos de qualquer relevância; até mesmo um monolítico se beneficia de logs e métricas básicas.
 
-### 6. **Dependência explícita de estado em componentes que deveriam ser stateless (especialmente em microsserviços)**
+### 6. **Dependência explícita de estado em componentes que deveriam ser *stateless* (especialmente em microsserviços)**
 - **Por que evitar**: Complica escalabilidade, tolerância a falhas e atualizações, pois o estado precisa ser gerenciado e replicado.
 - **Quando pode ser aceitável**: Quando o estado é realmente intrínseco à responsabilidade do componente e há uma estratégia clara para gerenciá-lo (ex: usando um banco de dados dedicado ou um cache distribuído com políticas de consistência claras).
 
@@ -76,13 +76,13 @@ Antes de adotar uma prática que aparece nesta lista, pergunte-se:
 
 ### 10. **Ignorar falhas parciais em sistemas distribuídos**
 - **Por que evitar**: Assume que ou tudo funciona ou tudo falha, levando a tratamento inadequado quando apenas parte do sistema está com problemas.
-- **Quando pode ser aceitável**: Nunca em sistemas distribuídos; sempre projetar para degradação graceful e tratamento de falhas parciais.
+- **Quando pode ser aceitável**: Nunca em sistemas distribuídos; sempre projetar para degradação *graceful* e tratamento de falhas parciais.
 
 ### 11. **Usar threads diretamente para concorrência em aplicações de alto nível quando alternativas melhores existem**
-- **Por que evitar**: Introduz complexidade de sincronização, risco de condições de corrida e deadlocks, e é difícil de escalar corretamente.
-- **Quando pode ser aceitável**: Quando se está construindo um framework de concorrência ou quando há necessidade de controle muito fino que não pode ser alcançado com abstrações de nível superior (como pools de workers ou modelos de ator).
+- **Por que evitar**: Introduz complexidade de sincronização, risco de condições de corrida e *deadlocks*, e é difícil de escalar corretamente.
+- **Quando pode ser aceitável**: Quando se está construindo um framework de concorrência ou quando há necessidade de controle muito fino que não pode ser alcançado com abstrações de nível superior (como *pools* de workers ou modelos de ator).
 
-### 12. **Falta de limites claros (bounded contexts) em domínios complexos**
+### 12. **Falta de limites claros (*bounded contexts*) em domínios complexos**
 - **Por que evitar**: Leva a modelos de dados confusos, termos sobrecarregados com múltiplos significados e dificuldade em evoluir partes do sistema independente.
 - **Quando pode ser aceitável**: Só em domínios muito simples e estáveis onde a ambiguidade não causa problemas.
 

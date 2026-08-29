@@ -9,7 +9,7 @@ Esta parte destaca as interdependências e relações entre os diversos tópicos
 - **Evitar silos de conhecimento**: Ajuda os leitores a ver além de tópicos isolados e entender o todo.
 - **Tomada de decisão informada**: Permite arquitetos considerar impactos colaterais ao escolher um padrão ou tecnologia.
 - **Aprendizado integrado**: Facilita a construção de modelos mentais que conectam múltiplos conceitos.
-- **Identificação de trade-offs**: Revela onde melhorar uma área pode custar em outra.
+- **Identificação de *trade-offs***: Revela onde melhorar uma área pode custar em outra.
 
 ### Princípios Gerais
 1. **Nada é isolado**: Toda decisão arquitetural tem repercussões em outros domínios (ex: desempenho, segurança, custo).
@@ -24,7 +24,7 @@ Esta parte destaca as interdependências e relações entre os diversos tópicos
 Conexões entre capítulos podem ser classificadas como:
 
 1. **Complementaridade**: Dois conceitos que trabalham bem juntos para alcançar um objetivo comum (ex: caching e escalabilidade).
-2. **Trade-off**: Melhorar um aspecto pode piorar outro (ex: consistência forte vs. latência).
+2. ***trade-off***: Melhorar um aspecto pode piorar outro (ex: consistência forte vs. latência).
 3. **Dependência**: Um conceito pressupõe ou requer outro para funcionar eficazmente (ex: microserviços geralmente pressupõem boa automação de DevOps).
 4. **Alternativa**: Dois conceitos que resolvem problemas semelhantes mas com abordagens diferentes (ex: SQL vs. NoSQL para armazenamento de dados).
 5. **Evolução**: Como um conceito pode levar ou ser substituído por outro ao longo do tempo (ex: ESBs dando lugar a arquiteturas orientadas a eventos leves).
@@ -43,7 +43,7 @@ Ao aprender um novo tópico, considere:
 ### Ferramentas de Visualização
 - **Mapas de calor**: Mostrar força de conexão entre tópicos em uma matriz.
 - **Grafos de dependência**: Nós representam capítulos; arestas mostram relacionamentos (com labels para tipo de conexão).
-- **Tabelas de trade-offs**: Linhas representam decisões; colunas representam impactos em diferentes qualidades de sistema.
+- **Tabelas de *trade-offs***: Linhas representam decisões; colunas representam impactos em diferentes qualidades de sistema.
 - **Histórias ou cenários**: Narrativas que mostram como múltiplos conceitos interagem em uma situação real.
 
 ## Checklist para Identificação de Conexões
@@ -63,7 +63,7 @@ Ao estudar ou aplicar um conceito arquitetural, pergunte-se:
 ## Estudos de Caso
 
 ### Caso 1: Consistência e Desempenho em Bancos de Dados Distribuídos
-- **Conexão**: Trade-off entre consistência forte (Capítulo: CONSISTENCY) e latência/throughput (Capítulo: DESEMPENHO).
+- **Conexão**: *trade-off* entre consistência forte (Capítulo: CONSISTENCY) e latência/*throughput* (Capítulo: DESEMPENHO).
 - **Explicação**: 
   - Bancos de dados que oferecem consistência linearizável frequentemente têm maior latência de escrita devido à necessidade de coordenação entre nós.
   - Modelos de consistência eventual podem oferecer melhor desempenho, mas exigem que os aplicativos lidem com possíveis inconsistências.
@@ -79,7 +79,7 @@ Ao estudar ou aplicar um conceito arquitetural, pergunte-se:
 - **Implicação**: Equipes que adotam microserviços devem investir simultaneamente em capacidades de DevOps para evitar cair em "distributed monolith" com sobrecarga operacional.
 
 ### Caso 3: Segurança e Usabilidade
-- **Conexão**: Trade-off entre medidas de segurança rigorosas (Capítulo: SEGURANÇA DE ARQUITETURA) e facilidade de uso (às vezes abordado em capítulos de experiência do usuário, embora não explicitamente listado, relevante em API DESIGN ou INTERFACE).
+- **Conexão**: *trade-off* entre medidas de segurança rigorosas (Capítulo: SEGURANÇA DE ARQUITETURA) e facilidade de uso (às vezes abordado em capítulos de experiência do usuário, embora não explicitamente listado, relevante em API DESIGN ou INTERFACE).
 - **Explicação**: 
   - Exigir autenticação multifator em cada passo pode melhorar segurança, mas reduzir taxas de conversão em aplicações voltadas ao consumidor.
   - Criptografia pesada pode proteger dados, mas aumentar tempo de processamento e consumo de bateria em dispositivos móveis.
@@ -91,7 +91,7 @@ Ao estudar ou aplicar um conceito arquitetural, pergunte-se:
 ### Mapas de Conexão Dinâmicos
 - Ferramentas que, dado um conjunto de decisões arquiteturais, geram automaticamente um mapa de impactos em qualidade de sistema, risco e esforço.
 
-### IA para Sugestão de Conexões e Trade-offs
+### IA para Sugestão de Conexões e *trade-offs*
 - Modelos de linguagem grande treinados em grandes conjuntos de dados de projetos de arquitetura para prever como uma decisão em uma área provavelmente afetará outra.
 
 ### Integração com Ferramentas de Governança de Arquitetura
@@ -104,6 +104,6 @@ Ao estudar ou aplicar um conceito arquitetural, pergunte-se:
 
 Entender as conexões entre capítulos é essencial para transcender o estudo de tópicos isolados e desenvolver uma visão verdadeiramente sistêmica da arquitetura de software. Ao reconhecer como conceitos se complementam, entram em conflito ou dependem uns dos outros, arquitetos podem tomar decisões mais equilibradas, antecipar consequências não intencionais e construir sistemas que sejam não apenas corretos em cada peça, mas também harmoniosos como um todo.
 
-Lembre-se de que a arquitetura de software é, em essência, sobre gerenciar complexidade e fazer trade-offs conscientes. Mapear explicitamente as conexões entre áreas de preocupação é uma poderosa prática para melhorar essa habilidade.
+Lembre-se de que a arquitetura de software é, em essência, sobre gerenciar complexidade e fazer *trade-offs* conscientes. Mapear explicitamente as conexões entre áreas de preocupação é uma poderosa prática para melhorar essa habilidade.
 
 Ao aplicar consistentemente esta mentalidade de conexão, você assegura que seus projetos de arquitetura de software se beneficiem de uma perspectiva holística, onde cada decisão é considerada não apenas por seus méritos diretos, mas também por seu papel no ecossistema maior do sistema.

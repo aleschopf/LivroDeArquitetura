@@ -32,12 +32,12 @@ Ao iniciar um novo projeto ou revisar uma arquitetura existente, considere:
 
 - [ ] Entendi completamente o contexto de negócio, objetivos e restrições?
 - [ ] Explorei múltiplas alternativas antes de escolher uma direção?
-- [ ] Analisei trade-offs significativos, incluindo efeitos de segunda ordem?
+- [ ] Analisei *trade-offs* significativos, incluindo efeitos de segunda ordem?
 - [ ] Considerei riscos, incertezas e como mitigá-los?
 - [ ] Pensei em evolvibilidade, manutenibilidade e operações desde o início?
 - [ ] Conectei minhas escolhas técnicas diretamente a métricas de negócio ou objetivos declarados?
-- [ ] Communiquei minha arquitetura de forma eficaz para diferentes públicos-alvo (técnicos, de negócio, operacionais)?
-- [ ] Documentei decisões chave e seu rationale (idealmente como ADRs)?
+- [ ] Comuniquei minha arquitetura de forma eficaz para diferentes públicos-alvo (técnicos, de negócio, operacionais)?
+- [ ] Documentei decisões chave e seu racional (idealmente como ADRs)?
 - [ ] Estabeleci métricas para validar o sucesso da arquitetura em produção?
 - [ ] Planejei revisões periódicas para garantir que a arquitetura continue adequada conforme o contexto muda?
 
@@ -46,7 +46,7 @@ Depois de concluir esta documentação básica, considere explorar:
 
 1. **Especializações de Domínio**: Arquitetura para áreas específicas como fintech, saúde, jogos, IoT, sistemas embarcados, etc.
 2. **Tecnologias Emergentes**: Arquitetura para sistemas com IA/ML, blockchain, computação quântica, edge computing.
-3. **Práticas Avançadas**: Engenharia de caos avançada, arquiteturas baseadas em intenção, serviço malha (service mesh) avançado.
+3. **Práticas Avançadas**: Engenharia de caos avançada, arquiteturas baseadas em intenção, serviço malha (*service mesh*) avançado.
 4. **Liderança e Estratégia**: Arquitetura de negócio, governança de TI, estratégia de tecnologia e comunicação com executivos.
 5. **Pesquisa e Inovação**: Contribuir para o avanço da área através de pesquisa, escrita de artigos ou apresentação em conferências.
 6. **Mentoria e Ensino**: Compartilhar conhecimento mentorando outros arquitetos em desenvolvimento ou criando material de ensino.
@@ -58,8 +58,8 @@ Depois de concluir esta documentação básica, considere explorar:
 - **O que aconteceu**:
   - Ele começou revisitando a parte de contexto de negócio (PARTE 11) para entender profundamente os objetivos clínicos e restrições regulatórias.
   - Usou o mapa da documentação (PARTE 0) para identificar quais partes eram mais relevantes para o problema em mãos (por exemplo, partes sobre bancos de dados, consistência, segurança e observabilidade).
-  - Ao projetar o sistema, aplicou princípios de baixa acoplamento e alta coesão (PARTE 10) e padrões arquiteturais apropriados (PARTES 11-12).
-  - Considerou trade-offs de consistência e disponibilidade (PARTES 23-25) levando em conta a natureza crítica dos dados de pacientes.
+  - Ao projetar o sistema, aplicou princípios de baixo acoplamento e alta coesão (PARTE 10) e padrões arquiteturais apropriados (PARTES 11-12).
+  - Considerou *trade-offs* de consistência e disponibilidade (PARTES 23-25) levando em conta a natureza crítica dos dados de pacientes.
   - Planejou observabilidade desde o início (PARTES 38 e 98) para garantir capacidade de monitorar e diagnosticar problemas em um ambiente clínico sensível.
   - Antes de finalizar a proposta, conduziu uma revisão de arquitetura informal usando as orientações da PARTE 15 (REVISÃO).
   - Documentou decisões chave usando o formato de registros de decisão de arquitetura (PARTES 54-55).
@@ -67,7 +67,7 @@ Depois de concluir esta documentação básica, considere explorar:
   - O sistema foi lançado com sucesso, atendendo aos requisitos de disponibilidade e integridade de dados exigidos pelo ambiente hospitalar.
   - O arquiteto relatou que ter um framework estruturado para pensar sobre o problema o ajudou a evitar armadilhas comuns e a se concentrar no que realmente importava.
   - Ele continuou usando a documentação como referência, particularmente as partes sobre segurança de arquitetura (PARTE 39) e conformidade regulatória implícita em várias seções.
-- **Lição**: Mesmo uma documentação básica, quando aplicada de forma deliberada e contextual, pode melhorar significativamente a eficácia de um arquiteto em projetos reais.
+- **Lições Aprendidas**: Mesmo uma documentação básica, quando aplicada de forma deliberada e contextual, pode melhorar significativamente a eficácia de um arquiteto em projetos reais.
 
 ### Caso 2: Uso Contínuo para Desenvolvimento Profissional
 - **Contexto**: Uma equipe de arquitetos em uma empresa de tecnologia estabeleceu um clube de estudo mensal usando esta documentação como base.
@@ -79,10 +79,10 @@ Depois de concluir esta documentação básica, considere explorar:
   - Periodicamente, revisitavam o formato das respostas de entrevista (PARTES 13-14) para manter afiadas suas habilidades de comunicação arquitetural.
   - Ao enfrentar desafios reais em seus projetos, referenciavam diretamente as partes relevantes da documentação.
 - **Resultado**:
-  - Após seis meses, a equipe relatou melhoria significativa na consistência das decisões arquiteturais, na qualidade das revisões de arquitetura e na capacidade de mentoria de arquitetos júniores.
+  - Após seis meses, a equipe relatou melhoria significativa na consistência das decisões arquiteturais, na qualidade das revisões de arquitetura e na capacidade de mentoria de arquitetos juniores.
   - Vários membros foram promovidos a posições de arquiteto sênior ou líder técnico.
   - O clube de estudo evoluiu para também incluir palestras convidadas e análise de arquiteturas de sistemas reais da empresa.
-- **Lição**: Transformar documentação em atividade de aprendizado contínuo e em equipe multiplica seu valor e cria um ciclo de melhoria permanente.
+- **Lições Aprendidas**: Transformar documentação em atividade de aprendizado contínuo e em equipe multiplica seu valor e cria um ciclo de melhoria permanente.
 
 ## Tendências Futuras
 
@@ -98,7 +98,7 @@ Depois de concluir esta documentação básica, considere explorar:
 ### Feedback de Mundo Real
 - Mecanismos para capturar como as orientações da documentação estão sendo aplicadas em projetos reais e usar esse feedback para melhorar futuras edições.
 
-### Expansão para Áreas Afins
+### Esperança para Áreas Afins
 - Inclusão de conteúdo relacionado como engenharia de plataforma, arquitetura de dados em escala, arquitetura de segurança avançada e arquitetura de experiência do usuário em sistemas complexos.
 
 ## Resumo

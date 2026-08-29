@@ -2,7 +2,7 @@
 trilha: "AVANÇADA"
 ---
 **Navegação:** [[MOC — TRILHA AVANÇADA]]
-← [[PARTE 0 — MAPA DA DOCUMENTACAO]] | #trilha/avancada | [[PARTE 22 — DISTRIBUTED TRANSACTIONS]] →
+← [[PARTE 0 — MAPA DA documenta��o]] | #trilha/avancada | [[PARTE 22 — DISTRIBUTED TRANSACTIONS]] →
 
 ---
 # PARTE 21 — TRANSACTIONS

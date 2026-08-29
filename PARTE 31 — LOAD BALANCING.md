@@ -574,3 +574,4 @@ Load balancing é uma técnica fundamental para construir sistemas escaláveis, 
 5. Persistência de sessão deve ser usada com cautela devido ao potencial de desequilíbrio de carga e perda de estado
 6. Observabilidade, monitoramento e procedures operacionais claros são essenciais para sucesso em produção
 - [ ] Lembre-se: O load balancing eficaz não se trata apenas de escolher o algoritmo certo, mas de entender profundamente seu aplicativo, padrões de tráfego, e requisitos de negócio para projetar uma solução que escale adequadamente enquanto mantém alta disponibilidade e boa performance.
+

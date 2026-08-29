@@ -2,7 +2,7 @@
 trilha: "AVANÇADA"
 ---
 **Navegação:** [[MOC — TRILHA AVANÇADA]]
-← [[PARTE 26 — DISTRIBUTED SYSTEMS]] | #trilha/avancada | [[PARTE 28 — SHARDING ou PARTITIONING]] →
+← [[PARTE 26 — DISTRIBUTED SYSTEMS]] | #trilha/avancada | [[PARTE 28 — SHARDING — PARTITIONING]] →
 
 ---
 # PARTE 27 — REPLICATION

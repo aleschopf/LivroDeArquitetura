@@ -2,7 +2,7 @@
 trilha: "INTERMEDIÁRIA"
 ---
 **Navegação:** [[MOC — TRILHA INTERMEDIÁRIA]]
-← [[PARTE 0 — MAPA DA DOCUMENTACAO]] | #trilha/intermediaria | [[PARTE 8 — DOMAIN-DRIVEN DESIGN]] →
+← [[PARTE 0 — MAPA DA documenta��o]] | #trilha/intermediaria | [[PARTE 8 — DOMAIN-DRIVEN DESIGN]] →
 
 ---
 # PARTE 7 — ONION ARCHITECTURE
@@ -46,12 +46,12 @@ Como resposta à frustração com arquiteturas tradicionais em camadas onde as r
 9. Usar injeção de dependência para fornecer implementações concretas às interfaces
 
 ### Quais são as alternativas?
-- Arquitetura em camadas tradicional (Layered Architecture)
+- arquitetura em camadas tradicional (Layered Architecture)
 - Clean Architecture
 - Hexagonal Architecture / Ports and Adapters
-- Arquitetura monolítica não estruturada
+- arquitetura monolítica não estruturada
 - Microservices
-- Arquitetura baseada em eventos
+- arquitetura baseada em eventos
 
 ### Quais são os trade-offs?
 **Vantagens da Onion Architecture:**
