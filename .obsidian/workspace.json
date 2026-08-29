@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "5b45035744475cb0",
+    "type": "split",
+    "children": [
+      {
+        "id": "7dd94e799893887e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdd4a2389ae5f6dc",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0eddbb0b9bab653f",
+    "type": "split",
+    "children": [
+      {
+        "id": "958cad00c160dee2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "750d575ea7302630",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "c9f625544b307588",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "9be13062cf60febb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b066e63edacb36c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "cce1935dde9510f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d503a74eaf81323",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "0f38bfa3d1032fd3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "874770b3cd0abc68",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "2cd1aaefa38006f3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "b50125f503d3699d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bem-vindo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "9be13062cf60febb",
+  "lastOpenFiles": [
+    "README.md~",
+    "README.md",
+    "PARTE 98 — NETWORKING PARA ARQUITETOS.md~",
+    "MAPA DE TRILHAS.canvas",
+    "PARTE 20 — DATABASE INDEXING.md",
+    "PARTE 69 — RUBRICA DE AVALIAÇÃO.md~",
+    "PARTE 63 — PROJETO DE SISTEMA PERGUNTAS QUE DEVEM SER FEITAS.md~",
+    "PARTE 32 — CDN.md~",
+    "PARTE 31 — LOAD BALANCING.md~",
+    "PARTE 30 — CACHING.md~",
+    "PARTE 27 — REPLICATION.md~",
+    "PARTE 25 — PACELC.md~",
+    "PARTE 84 — ENGENHARIA DO CAOS.md",
+    "MOC — TRILHA PARA ENTREVISTAS.md",
+    "PARTE 14 — SERVICE DISCOVERY.md~",
+    "PARTE 13 — MICROSERVICES.md~",
+    "MOC — TRILHA PARA SYSTEM DESIGN.md",
+    "MOC — TRILHA AVANÇADA.md",
+    "MOC — TRILHA INTERMEDIÁRIA.md",
+    "MOC — TRILHA INICIANTE.md",
+    "PARTE 99 — OBSERVABILIDADE EM SYSTEM DESIGN.md",
+    "PARTE 100 — CHECKLIST FINAL DO ARQUITETO.md",
+    "PARTE.md",
+    "PARTE_99_LISTA_DE_VERIFICAÇÃO_FINAL_DO_ARQUITETO.md",
+    "RESPOSTA DE SÊNIOR.md",
+    "Bem-vindo.md",
+    "EXPLICAÇÃO POR CAMADAS.md",
+    "CONEXÕES ENTRE CAPÍTULOS.md",
+    "SISTEMA VOCÊ PRECISA SABER iSSO.md",
+    "PARTE_0_MAPA_DA_DOCUMENTACAO.md",
+    "SISTEMA_VOCÊ_PRECISA_SABER_ISSO.md",
+    "SISTEMA NÃO COMPLIQUE.md",
+    "SISTEMA DE NÍVEL DE DIFICULDADE.md",
+    "SISTEMA DE FREQUÊNCIA EM ENTREVISTAS.md",
+    "REVISÃO.md",
+    "REGRAS PARA EXEMPLOS DE CÓDIGO.md",
+    "REGRAS PARA DIAGRAMAS.md"
+  ]
+}

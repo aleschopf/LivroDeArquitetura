@@ -1,0 +1,98 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "title": "Trilhas de Estudo",
+      "items": [
+        {
+          "type": "group",
+          "title": "🟢 Iniciante",
+          "items": [
+            { "type": "file", "path": "PARTE 0 — MAPA DA DOCUMENTACAO.md" },
+            { "type": "file", "path": "PARTE 1 — FUNDAMENTOS DE ARQUITETURA DE SOFTWARE.md" },
+            { "type": "file", "path": "PARTE 2 — REQUISITOS E DECISOES ARQUITETURAIS.md" },
+            { "type": "file", "path": "PARTE 9 — SOLID.md" },
+            { "type": "file", "path": "PARTE 10 — COESÃO E ACOPLAMENTO.md" },
+            { "type": "file", "path": "PARTE 11 — DESIGN PATTERNS.md" },
+            { "type": "file", "path": "PARTE 3 — ARQUITETURA MONOLÍTICA.md" },
+            { "type": "file", "path": "PARTE 4 — ARQUITETURA EM CAMADAS.md" },
+            { "type": "file", "path": "PARTE 5 — CLEAN ARCHITECTURE.md" },
+            { "type": "file", "path": "PARTE 6 — HEXAGONAL ou PORTS AND ADAPTERS.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "🟡 Intermediária",
+          "items": [
+            { "type": "file", "path": "PARTE 0 — MAPA DA DOCUMENTACAO.md" },
+            { "type": "file", "path": "PARTE 7 — ONION ARCHITECTURE.md" },
+            { "type": "file", "path": "PARTE 8 — DOMAIN-DRIVEN DESIGN.md" },
+            { "type": "file", "path": "PARTE 12 — ARCHITECTURAL PATTERNS.md" },
+            { "type": "file", "path": "PARTE 13 — MICROSERVICES.md" },
+            { "type": "file", "path": "PARTE 14 — SERVICE DISCOVERY.md" },
+            { "type": "file", "path": "PARTE 15 — API DESIGN.md" },
+            { "type": "file", "path": "PARTE 16 — COMUNICAÇÃO ENTRE SERVIÇOS.md" },
+            { "type": "file", "path": "PARTE 17 — MESSAGE BROKERS E EVENT STREAMING.md" },
+            { "type": "file", "path": "PARTE 18 — EVENT-DRIVEN ARCHITECTURE.md" },
+            { "type": "file", "path": "PARTE 19 — DATABASES.md" },
+            { "type": "file", "path": "PARTE 20 — DATABASE INDEXING.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "🟠 Avançada",
+          "items": [
+            { "type": "file", "path": "PARTE 0 — MAPA DA DOCUMENTACAO.md" },
+            { "type": "file", "path": "PARTE 21 — TRANSACTIONS.md" },
+            { "type": "file", "path": "PARTE 22 — DISTRIBUTED TRANSACTIONS.md" },
+            { "type": "file", "path": "PARTE 23 — CONSISTENCY.md" },
+            { "type": "file", "path": "PARTE 24 — CAP THEOREM.md" },
+            { "type": "file", "path": "PARTE 25 — PACELC.md" },
+            { "type": "file", "path": "PARTE 26 — DISTRIBUTED SYSTEMS.md" },
+            { "type": "file", "path": "PARTE 27 — REPLICATION.md" },
+            { "type": "file", "path": "PARTE 28 — SHARDING ou PARTITIONING.md" },
+            { "type": "file", "path": "PARTE 29 — CONSISTENT HASHING.md" },
+            { "type": "file", "path": "PARTE 30 — CACHING.md" },
+            { "type": "file", "path": "PARTE 31 — LOAD BALANCING.md" },
+            { "type": "file", "path": "PARTE 32 — CDN.md" },
+            { "type": "file", "path": "PARTE 33 — API GATEWAY.md" },
+            { "type": "file", "path": "PARTE 34 — RESILIENCE.md" },
+            { "type": "file", "path": "PARTE 35 — RELIABILIDADE E DISPONIBILIDADE.md" },
+            { "type": "file", "path": "PARTE 37 — FAULT TOLERANCE.md" },
+            { "type": "file", "path": "PARTE 38 — DISASTER RECOVERY.md" },
+            { "type": "file", "path": "PARTE 39 — OBSERVABILIDADE.md" },
+            { "type": "file", "path": "PARTE 40 — IAM.md" },
+            { "type": "file", "path": "PARTE 41 — ARQUITETURA DE NUVEM.md" },
+            { "type": "file", "path": "PARTE 43 — CONTAINERS.md" },
+            { "type": "file", "path": "PARTE 44 — KUBERNETES.md" },
+            { "type": "file", "path": "PARTE 45 — SERVERLESS.md" }
+          ]
+        },
+        {
+          "type": "group",
+          "title": "🎯 Preparação de Entrevistas",
+          "items": [
+            { "type": "file", "path": "PARTE 0 — MAPA DA DOCUMENTACAO.md" },
+            { "type": "file", "path": "PARTE 61 — PROJETO DE SISTEMA.md" },
+            { "type": "file", "path": "PARTE 62 — ESTRUTURA PARA RESOLVER PROJETO DE SISTEMA.md" },
+            { "type": "file", "path": "PARTE 63 — PROJETO DE SISTEMA PERGUNTAS QUE DEVEM SER FEITAS.md" },
+            { "type": "file", "path": "PARTE 64 — PROJETO DE SISTEMA ESTIMATIVAS.md" },
+            { "type": "file", "path": "PARTE 65 — PROJETO DE SISTEMA PROBLEMAS CLÁSSICOS.md" },
+            { "type": "file", "path": "PARTE 66 — PROJETO DE BAIXO NÍVEL.md" },
+            { "type": "file", "path": "PARTE 67 — PROJETO DE SISTEMA VS PROJETO DE BAIXO NÍVEL.md" },
+            { "type": "file", "path": "PARTE 68 — ENTREVISTAS DE PROJETO DE SISTEMA.md" },
+            { "type": "file", "path": "PARTE 69 — RUBRICA DE AVALIAÇÃO.md" },
+            { "type": "file", "path": "PARTE 70 — ERROS EM ENTREVISTAS.md" },
+            { "type": "file", "path": "PARTE 71 — DICAS PARA ENTREVISTAS DE EMPREGO.md" },
+            { "type": "file", "path": "PARTE 72 — PERGUNTAS DE ENTREVISTA.md" },
+            { "type": "file", "path": "PARTE 73 — FOLLOW-UP QUESTIONS DE ENTREVISTADOR.md" },
+            { "type": "file", "path": "PARTE 74 — CHECKLIST DE SYSTEM DESIGN.md" },
+            { "type": "file", "path": "PARTE 75 — CHEAT SHEETS.md" },
+            { "type": "file", "path": "PARTE 76 — TABELAS COMPARATIVAS.md" },
+            { "type": "file", "path": "PARTE 77 — GLOSSÁRIO.md" }
+          ]
+        }
+      ]
+    }
+  ]
+}
