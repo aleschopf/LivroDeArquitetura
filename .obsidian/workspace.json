@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PARTE 0 — MAPA DA DOCUMENTAÇÃO.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PARTE 0 — MAPA DA DOCUMENTAÇÃO"
+              "title": "README"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 222.5
   },
   "right": {
     "id": "b066e63edacb36c3",
@@ -188,17 +188,21 @@
   },
   "active": "bdd4a2389ae5f6dc",
   "lastOpenFiles": [
+    "PARTE 91 — ENTREVISTA FINAL — SIMULAÇÕES COMPLETAS.md~",
+    "PARTE 89 — COMO PENSAR COMO ARQUITETO.md~",
+    "PARTE 87 — CUSTO DE ARQUITETURA.md~",
+    "PARTE 85 — ARCHITECTURE GOVERNANCE.md~",
+    "PARTE 84 — ENGENHARIA DO CAOS.md~",
+    "PARTE 82 — MIGRAÇÃO DE ARQUITETURA.md~",
+    "PARTE 77 — GLOSSÁRIO.md~",
+    "PARTE 74 — CHECKLIST DE SYSTEM DESIGN.md~",
+    "PARTE 73 — FOLLOW-UP QUESTIONS DE ENTREVISTADOR.md~",
+    "PARTE 72 — PERGUNTAS DE ENTREVISTA.md~",
+    "PARTE 70 — ERROS EM ENTREVISTAS.md~",
+    "MOC — TRILHA AVANÇADA.md",
+    "MAPA DE TRILHAS.canvas",
+    "PARTE 0 — MAPA DA DOCUMENTAÇÃO.md",
     "README.md",
-    "PARTE 5 — CLEAN ARCHITECTURE.md~",
-    "PARTE 27 — REPLICATION.md~",
-    "MOC — TRILHA PARA SYSTEM DESIGN.md~",
-    "PARTE 100 — CHECKLIST FINAL DO ARQUITETO.md~",
-    "PARTE 99 — OBSERVABILIDADE EM SYSTEM DESIGN.md~",
-    "PARTE 98 — NETWORKING PARA ARQUITETOS.md~",
-    "PARTE 97 — SISTEMAS REAL-TIME.md~",
-    "PARTE 92 — BANCO DE QUESTÕES PARA PRÁTICA.md~",
-    "CONEXÕES ENTRE CAPÍTULOS.md~",
-    "EXPLICAÇÃO POR CAMADAS.md~",
     "PARTE 93 — MAPA DE CONHECIMENTO.md",
     "PARTE 94 — ÁRVORES DE DECISÃO.md",
     "PARTE 95 — ARQUITETURAS COMPLETAS DE REFERÊNCIA.md",
@@ -220,10 +224,6 @@
     "PARTE 89 — COMO PENSAR COMO ARQUITETO.md",
     "PARTE 88 — STAFF ENGINEER ou ARCHITECT THINKING.md",
     "PARTE 87 — CUSTO DE ARQUITETURA.md",
-    "PARTE 86 — DÍVIDA TÉCNICA.md",
-    "PARTE 85 — ARCHITECTURE GOVERNANCE.md",
-    "PARTE 84 — ENGENHARIA DO CAOS.md",
-    "PARTE 83 — TESTES E ARQUITETURA.md",
-    "MAPA DE TRILHAS.canvas"
+    "PARTE 86 — DÍVIDA TÉCNICA.md"
   ]
 }

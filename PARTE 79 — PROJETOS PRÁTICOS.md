@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 77 — GLOSSÁRIO]] | #trilha/entrevistas | [[PARTE 79 — PROJETOS PRÁTICOS]] →
+← [[PARTE 78 — ROADMAP DE ESTUDO]] | #trilha/entrevistas | [[PARTE 80 — CENÁRIOS DE EVOLUÇÃO ARQUITETURAL]] →
 
 ---
-# PARTE 78 — PROJETOS PRÁTICOS
+# PARTE 79 — PROJETOS PRÁTICOS
 
 ## Fundamentos
 

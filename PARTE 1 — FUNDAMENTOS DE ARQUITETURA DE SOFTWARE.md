@@ -51,7 +51,7 @@ Organização dos recursos de computação, rede e storage que suportam o sistem
 
 > 💡 **DICA DE ENTREVISTA**
 > 
-> Em entrevistas, arquitetos são avaliados não apenas pelo conhecimento técnico, mas pela capacidade de equilibrar trade-offs, comunicar decisões e entender o contexto de negócio.
+> Em entrevistas, arquitetos são avaliados não apenas pelo conhecimento técnico, mas pela capacidade de equilibrar *trade-offs*, comunicar decisões e entender o contexto de negócio.
 
 ### responsabilidades
 - Definir a visão técnica e estratégica do sistema
@@ -71,8 +71,8 @@ Arquitetos tomam decisões baseadas em:
 - Experiência passada e lições aprendidas
 - Tendências tecnológicas e avaliação de novas tecnologias
 
-### trade-offs
-Toda decisão arquitetural envolve trade-offs. Exemplos comuns:
+### *trade-offs*
+Toda decisão arquitetural envolve *trade-offs*. Exemplos comuns:
 - Consistência vs Disponibilidade (CAP Theorem)
 - Performance vs Segurança
 - Simplicidade vs Flexibilidade
@@ -110,12 +110,12 @@ Toda decisão arquitetural envolve trade-offs. Exemplos comuns:
 
 **Por que existe?** Usuários esperam respostas rápidas; sistemas lentos são abandonados.
 
-**Qual problema resolve?** Atender às expectativas de latência e throughput.
+**Qual problema resolve?** Atender às expectativas de latência e *throughput*.
 
 **Como funciona internamente?**
 - Otimização de algoritmos e estruturas de dados
 - Minimização de I/O dispendioso
-- Uso eficaz de caching
+- Uso eficaz de *caching*
 - Processamento paralelo e assíncrono
 - Otimização de consultas de banco de dados
 - Redução de latência de rede
@@ -123,7 +123,7 @@ Toda decisão arquitetural envolve trade-offs. Exemplos comuns:
 **Como implementar?**
 - Perfilar para identificar gargalos
 - Otimizar o caminho crítico
-- Implementar caching em múltiplos níveis
+- Implementar *caching* em múltiplos níveis
 - Usar processamento assíncrono quando apropriado
 - Otimizar consultas e índices de banco de dados
 - Minimizar serialização/desserialização
@@ -141,7 +141,7 @@ Toda decisão arquitetural envolve trade-offs. Exemplos comuns:
 
 **Quando não usar?**
 - Processamento em lote noturno
-- Sistemas onde throughput é mais importante que latência
+- Sistemas onde *throughput* é mais importante que latência
 - Quando o custo de otimização supera o benefício
 
 **Como isso afeta:**
@@ -197,12 +197,12 @@ users = db.query("SELECT id, name, email FROM users WHERE last_login > ?", [date
 - Arquitetura que permite adição de recursos sem downtime significativo
 - Componentes que podem ser escalados independentemente
 - Estado compartilhado minimizado ou externalizado
-- Load balancing para distribuir carga
+- *load balancing* para distribuir carga
 - Partiionamento de dados quando necessário
 
 **Como implementar?**
 - Projetar componentes sem estado (stateless) quando possível
-- Usar load balancers para distribuir requisições
+- Usar *load balancers* para distribuir requisições
 - Externalizar estado (sessões, cache) para armazenamento dedicado
 - Implementar particionamento de dados (sharding)
 - Usar auto-scaling baseado em métricas
@@ -260,7 +260,7 @@ def get_cart():
   - Necessidade de baixa latência global
   - Arquitetura de microsserviços com auto-scaling
   - CDN global para conteúdo de vídeo
-  - Load balancing inteligente baseado em geolocalização
+  - *load balancing* inteligente baseado em geolocalização
   - Bancos de dados particionados por região geográfica
 
 **Como esse assunto pode aparecer em uma entrevista.**
@@ -270,7 +270,7 @@ def get_cart():
 > 
 > **Armadilha:** Sugerir simplesmente "adicionar mais servidores" sem considerar statefulness, gargalos de banco de dados, etc.
 > 
-> **Como raciocinar:** Analisar o gargalo atual (CPU, memória, I/O, rede, banco de dados), identificar quais componentes são stateless vs stateful, planejar estratégias de particionamento se necessário, considerar caching e CDN.
+> **Como raciocinar:** Analisar o gargalo atual (CPU, memória, I/O, rede, banco de dados), identificar quais componentes são stateless vs stateful, planejar estratégias de particionamento se necessário, considerar *caching* e CDN.
 
 ### disponibilidade
 **O que é?** A proporção de tempo em que o sistema está operacional e acessível quando necessário.
@@ -289,7 +289,7 @@ def get_cart():
 **Como implementar?**
 - Eliminar pontos únicos de falha (SPOF)
 - Implementar health checks e remoção automática de instâncias não saudáveis
-- Usar load balancers com failover
+- Usar *load balancers* com failover
 - Replicar dados entre múltiplas zonas de disponibilidade
 - Implementar estratégias de backup e recuperação
 - Design para eventual consistency quando consistência forte não é necessária
@@ -344,7 +344,7 @@ def get_user(user_id):
 **Exemplo de sistema de produção**
 - Sistema de pagamento com:
   - Múltiplas zonas de disponibilidade (AZs) em diferentes regiões geográficas
-  - Load balancing entre AZs
+  - *load balancing* entre AZs
   - Bancos de dados com replicação síncrona entre AZs
   - Failover automático em menos de 30 segundos
   - Backup diário com recuperação point-in-time
@@ -1015,7 +1015,7 @@ Explique a diferença entre arquitetura e design usando um exemplo de construç�
 Desenvolva um checklist para avaliar se uma decisão arquitetural está considerando adequadamente os atributos de qualidade discutidos nesta seção.
 
 ### Exercício avançado
-Analise um sistema que você conhece (pode ser um projeto pessoal ou de trabalho) e identifique como cada atributo de qualidade foi tratado. Onde há trade-offs evidentes? O que poderia ser melhorado?
+Analise um sistema que você conhece (pode ser um projeto pessoal ou de trabalho) e identifique como cada atributo de qualidade foi tratado. Onde há *trade-offs* evidentes? O que poderia ser melhorado?
 
 ### Exercício de entrevista
 > 🎯 **ENTREVISTA — MODERADO**
@@ -1025,4 +1025,4 @@ Analise um sistema que você conhece (pode ser um projeto pessoal ou de trabalho
 > Forneça a resposta esperada e explique o que torna ela eficaz.
 
 ### Desafio
-Crie uma matriz de decisão que ajude a escolher entre duas alternativas arquiteturais baseado em impactos nos atributos de qualidade. Inclua pelo menos 5 atributos de qualidade diferentes e mostre como ponderar trade-offs.
+Crie uma matriz de decisão que ajude a escolher entre duas alternativas arquiteturais baseado em impactos nos atributos de qualidade. Inclua pelo menos 5 atributos de qualidade diferentes e mostre como ponderar *trade-offs*.

@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 67 — PROJETO DE SISTEMA VS PROJETO DE BAIXO NÍVEL]] | #trilha/entrevistas | [[PARTE 69 — RUBRICA DE AVALIAÇÃO]] →
+← [[PARTE 68 — ENTREVISTAS DE SYSTEM DESIGN]] | #trilha/entrevistas | [[PARTE 70 — ERROS EM ENTREVISTAS]] →
 
 ---
-# PARTE 68 — RUBRICA DE AVALIAÇÃO
+# PARTE 69 — RUBRICA DE AVALIAÇÃO
 
 ## Fundamentos
 

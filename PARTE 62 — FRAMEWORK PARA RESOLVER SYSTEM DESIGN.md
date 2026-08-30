@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 0 — MAPA DA documentação]] | #trilha/entrevistas | [[PARTE 62 — ESTRUTURA PARA RESOLVER PROJETO DE SISTEMA]] →
+← [[PARTE 61 — SYSTEM DESIGN]] | #trilha/entrevistas | [[PARTE 63 — SYSTEM DESIGN — PERGUNTAS QUE DEVEM SER FEITAS]] →
 
 ---
-# PARTE 61 — ESTRUTURA PARA RESOLVER PROJETO DE SISTEMA
+# PARTE 62 — FRAMEWORK PARA RESOLVER SYSTEM DESIGN
 
 ## Fundamentos da Estruturação de Problemas de arquitetura
 

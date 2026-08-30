@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 75 — CHEAT SHEETS]] | #trilha/entrevistas | [[PARTE 77 — GLOSSÁRIO]] →
+← [[PARTE 76 — TABELAS COMPARATIVAS]] | #trilha/entrevistas | [[PARTE 78 — ROADMAP DE ESTUDO]] →
 
 ---
-# PARTE 76 — GLOSSÁRIO
+# PARTE 77 — GLOSSÁRIO
 
 ## Fundamentos
 

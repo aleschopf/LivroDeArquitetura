@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 86 — DÉVITA TÉCNICA]] | #trilha/entrevistas | [[PARTE 88 — STAFF ENGINEER ou ARCHITECT THINKING]] →
+← [[PARTE 87 — CUSTO DE ARQUITETURA]] | #trilha/entrevistas | [[PARTE 89 — COMO PENSAR COMO ARQUITETO]] →
 
 ---
-# PARTE 87 — ENGENHEIRO SÊNIOR / PENSAMENTO DE ARQUITETO
+# PARTE 88 — STAFF ENGINEER / ARCHITECT THINKING
 
 ## Fundamentos
 
@@ -247,7 +247,7 @@ Pensamento de arquitetura é a capacidade de ver sistemas em múltiplos níveis 
 - **Decisões arquiteturais com data de validade** - Reconhecendo que escolhas têm vida útil limitada
 - **Organização em torno de fluxos de valor** - Estruturas que permitem reorganização rápida baseado em valor entregue
 
-### Integação Profunda com Inteligência Artificial e Aprendizado de Máquina
+### Integração Profunda com Inteligência Artificial e Aprendizado de Máquina
 - **Arquitetura para workloads de IA** - Projetando sistemas que lidam eficientemente com treinamento, inferência e feedback de modelos de ML
 - **ML auxiliando decisões arquiteturais** - Sistemas que recomendam escolhas arquiteturais baseado em padrões de uso e resultados
 - **Arquitetura de aprendizado contínuo** - Sistemas que evoluem seu comportamento baseado em dados operacionais

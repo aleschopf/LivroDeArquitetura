@@ -1,4 +1,11 @@
-# PARTE 60 — PROJETO DE SISTEMA
+---
+trilha: "PARA ENTREVISTAS"
+---
+**Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
+← [[PARTE 60 — ESTIMATIVAS E PLANEJAMENTO DE CAPACIDADE]] | #trilha/entrevistas | [[PARTE 62 — FRAMEWORK PARA RESOLVER SYSTEM DESIGN]] →
+
+---
+# PARTE 61 — SYSTEM DESIGN
 
 ## Fundamentos do Projeto de Sistema
 

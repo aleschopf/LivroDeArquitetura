@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 82 — MIGRAÇÃO DE ARQUITETURA]] | #trilha/entrevistas | [[PARTE 84 — ENGENHARIA DO CAOS]] →
+← [[PARTE 83 — TESTES E ARQUITETURA]] | #trilha/entrevistas | [[PARTE 85 — ARCHITECTURE GOVERNANCE]] →
 
 ---
-# PARTE 83 — ENGENHARIA DO CAOS
+# PARTE 84 — ENGENHARIA DO CAOS
 
 ## Fundamentos
 

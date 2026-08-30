@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 74 — CHECKLIST DE SYSTEM DESIGN]] | #trilha/entrevistas | [[PARTE 76 — TABELAS COMPARATIVAS]] →
+← [[PARTE 75 — CHEAT SHEETS]] | #trilha/entrevistas | [[PARTE 77 — GLOSSÁRIO]] →
 
 ---
-# PARTE 75 — TABELAS COMPARATIVAS
+# PARTE 76 — TABELAS COMPARATIVAS
 
 ## Fundamentos
 

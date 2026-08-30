@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 85 — ARCHITECTURE GOVERNANCE]] | #trilha/entrevistas | [[PARTE 87 — CUSTO DE ARQUITETURA]] →
+← [[PARTE 86 — DÍVIDA TÉCNICA]] | #trilha/entrevistas | [[PARTE 88 — STAFF ENGINEER — ARCHITECT THINKING]] →
 
 ---
-# PARTE 86 — CUSTO DE ARQUITETURA
+# PARTE 87 — CUSTO DE ARQUITETURA
 
 ## Fundamentos
 

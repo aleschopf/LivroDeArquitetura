@@ -343,7 +343,7 @@ Isso reconhece que mesmo sem particionamento, há trade-offs entre consistência
 - **AP**: Complexidade em resolução de conflito e tratamento de inconsistência
 - **CA**: Mais simples quando rede confiável, mas requer planejamento para falhas de rede
 
-## COMO ISSO APARECE EM SYSTEM DESIGN
+## Como isso aparece em System Design
 
 ### Quando discutir CAP em entrevistas de system design:
 - Sempre que houver menção a múltiplos data centers ou distribuição geográfica

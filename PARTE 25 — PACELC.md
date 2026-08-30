@@ -227,7 +227,7 @@ graph TD
 - **PC/EC**: Complex due to coordination protocols, simpler failure model
 - **PA/EC and PC/EL**: Moderate complexity, depends on specific implementation
 
-## COMO ISSO APARECE EM SYSTEM DESIGN
+## Como isso aparece em System Design
 
 ### Quando discutir PACELC em entrevistas de system design:
 - Sempre que houver menção a trade-offs entre performance/latência e consistência
@@ -294,7 +294,7 @@ graph TD
 - [ ] Monitorar metricas de latencia, taxas de erro e disponibilidade
 - [ ] Rastrear ocorrencias de particionamento de rede e respostas do sistema (mudanca de comportamento?)
 - [ ] Alertar sobre desvios do comportamento PACELC esperado (ex: sistema PA/EL recusando operacoes durante particionamento)
-- [ ] Testar periodicamente procedimentos de recupera��o e comportamento apos particionamento
+- [ ] Testar periodicamente procedimentos de recupera��o e comportamento apos particionamento
 - [ ] Revisar se escolhas de trade-off PACELC ainda sao apropriadas baseado em mudancas de uso, volume ou requisitos de negocio
 - [ ] Coletar feedback de usuarios sobre percepcao de latencia e correcao
 

@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 88 — STAFF ENGINEER ou ARCHITECT THINKING]] | #trilha/entrevistas | [[PARTE 90 — CENARIOS E SE]] →
+← [[PARTE 89 — COMO PENSAR COMO ARQUITETO]] | #trilha/entrevistas | [[PARTE 91 — ENTREVISTA FINAL — SIMULAÇÕES COMPLETAS]] →
 
 ---
-# PARTE 89 — CENÁRIOS "E SE?"
+# PARTE 90 — CENÁRIOS — E SE
 
 ## Fundamentos
 

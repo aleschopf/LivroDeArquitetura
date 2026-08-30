@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 64 — PROJETO DE SISTEMA ESTIMATIVAS]] | #trilha/entrevistas | [[PARTE 66 — PROJETO DE BAIXO NÍVEL]] →
+← [[PARTE 65 — SYSTEM DESIGN — PROBLEMAS CLÁSSICOS]] | #trilha/entrevistas | [[PARTE 67 — SYSTEM DESIGN VS LOW LEVEL DESIGN]] →
 
 ---
-# PARTE 65 — PROJETO DE BAIXO NÍVEL
+# PARTE 66 — LOW LEVEL DESIGN
 
 ## Fundamentos do Projeto de Baixo Nível
 

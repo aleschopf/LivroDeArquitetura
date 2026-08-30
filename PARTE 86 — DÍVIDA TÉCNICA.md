@@ -2,15 +2,15 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 84 — ENGENHARIA DO CAOS]] | #trilha/entrevistas | [[PARTE 86 — DÉVITA TÉCNICA]] →
+← [[PARTE 85 — ARCHITECTURE GOVERNANCE]] | #trilha/entrevistas | [[PARTE 87 — CUSTO DE ARQUITETURA]] →
 
 ---
-# PARTE 85 — DÍVIDA TÉCNICA
+# PARTE 86 — DÍVIDA TÉCNICA
 
 ## Fundamentos
 
 ### O que é Dívida Técnica?
-Dívida técnica é um conceito metáfora que descreve o custo de rework adicional causado por escolher uma solução fácil agora em vez de usar uma abordagem melhor que levaria mais tempo. Assim como a dívida financeira, a dívida técnica acumula "juros" na forma de esforço extra necessário para manutenção futura, mudanças ou extensões do sistema.
+Dívida técnica é um conceito metáfora que descreve o custo de retrabalho (rework) adicional causado por escolher uma solução fácil agora em vez de usar uma abordagem melhor que levaria mais tempo. Assim como a dívida financeira, a dívida técnica acumula "juros" na forma de esforço extra necessário para manutenção futura, mudanças ou extensões do sistema.
 
 ### Tipos de Dívida Técnica (Martin Fowler's Technical Debt Quadrant)
 1. **Dívida Técnica Deliberada e Prudente** - Decisão consciente de tomar um atalho com plano de pagamento
@@ -31,7 +31,7 @@ Dívida técnica é um conceito metáfora que descreve o custo de rework adicion
 ### Juros da Dívida Técnica
 - **Tempo aumentado para desenvolvimento de novas funcionalidades**
 - **Mais bugs e defeitos em produção**
-- **Dificuldade em onboardar novos desenvolvedores**
+- **Dificuldade em integrar (onboarding) novos desenvolvedores**
 - **Redução da motivação e satisfação da equipe**
 - **Maior risco em mudanças e refatorações**
 - **Dificuldade em atender a requisitos de desempenho ou escalabilidade**
@@ -124,7 +124,7 @@ Dívida técnica é um conceito metáfora que descreve o custo de rework adicion
 - **Mentoria e Onboarding Estruturado** - Reduzir curva de aprendizado e inconsistências
 
 ### Ferramentas para Gestão de Dívida Técnica
-- **Estático Analyzers** - SonarQube, CodeClimate, ESLint, Checkstyle, PMD, RuboCop
+- **Analisadores Estáticos** - SonarQube, CodeClimate, ESLint, Checkstyle, PMD, RuboCop
 - **Dependency Management** - Dependabot, Renovate, Snyk, WhiteSource
 - **Test Coverage Tools** - Istanbul/nyc, JaCoCo, Cobertura, OpenCover
 - **Architecture Tools** - Structurizr, ArchUnit, jQAssistant, SonarArc
@@ -248,7 +248,7 @@ Dívida técnica é um conceito metáfora que descreve o custo de rework adicion
 - **Chatbots de assistência técnica** - Auxiliando desenvolvedores a entender e navegar código complexo
 
 ### Gestão de Dívida Técnica como Serviço
-- **Platforms de excelência técnica** - Serviços internos fornecendo métricas, ferramentas e orientação
+- **Plataformas de excelência técnica** - Serviços internos fornecendo métricas, ferramentas e orientação
 - **Technical debt as a product** - Tratando a redução de dívida como um produto com roadmap e métricas
 - **Self-service refactoring tools** - Plataformas que guiam desenvolvedores através de melhorias seguras
 - **Continuous improvement pipelines** - Esteiras especializadas para refactoring e melhoria de qualidade
@@ -263,17 +263,17 @@ Dívida técnica é um conceito metáfora que descreve o custo de rework adicion
 - **Dívida de plataforma** - Decisões de infraestrutura e plataforma que limitam futura evolução
 - **Dívida de conhecimento e habilidades** - Lacunas de competência da equipe como forma de dívida organizacional
 
-### Integação com Value Stream Management
+### Integração com Value Stream Management
 - **Mapeamento de fluxo de valor com foco em qualidade** - Identificando onde dívida afeta entrega de valor
 - **Métricas de fluxo de valor incluem qualidade técnica** - Lead time, cycle time ajustados por fatores de qualidade
 - **Identificação de gargalos de qualidade** - Encontrando onde dívida técnica cria maior atrito no fluxo
 - **Investimento alinhado ao valor** - Priorizando pagamento de dívida baseado em impacto no valor entregue
 - **Feedback loop de valor e qualidade** - Melhorando tanto o que é entregue quanto como é entregue
-- **Visibility de debt impact no valor** - Quantificando quanto dívida técnica reduz o valor efetivamente entregue
+- **Visibilidade do impacto da dívida no valor** - Quantificando quanto dívida técnica reduz o valor efetivamente entregue
 
 ### Arquitetura para Evolvibilidade e Baixa Acumulação de Dívida
 - **Princípios de arquitetura evolutiva** - Projetando sistemas que facilitam mudanças futuras
-- **Padrões de baixa acoplamento** - Arquiteturas que minimizam o impacto de mudanças locais
+- **Padrões de baixo acoplamento** - Arquiteturas que minimizam o impacto de mudanças locais
 - **Estratégias de substituição incremental** - Técnicas para substituir partes sem reescrever tudo
 - **Planejamento para obsolescência controlada** - Projetando componentes com vida útil e plano de substituição
 - **Arquiteturas de plug-in e extensibilidade** - Permitindo evolução através de adição, não modificação

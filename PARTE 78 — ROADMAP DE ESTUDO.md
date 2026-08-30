@@ -2,10 +2,10 @@
 trilha: "PARA ENTREVISTAS"
 ---
 **Navegação:** [[MOC — TRILHA PARA ENTREVISTAS]]
-← [[PARTE 76 — TABELAS COMPARATIVAS]] | #trilha/entrevistas | [[PARTE 78 — ROADMAP DE ESTUDO]] →
+← [[PARTE 77 — GLOSSÁRIO]] | #trilha/entrevistas | [[PARTE 79 — PROJETOS PRÁTICOS]] →
 
 ---
-# PARTE 77 — PLANO DE ESTUDOS
+# PARTE 78 — ROADMAP DE ESTUDO
 
 ## Fundamentos
 
