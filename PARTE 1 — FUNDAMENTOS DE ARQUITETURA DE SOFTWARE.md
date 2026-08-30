@@ -358,7 +358,7 @@ def get_user(user_id):
 > 
 > **Armadilha:** Focar apenas em redundância sem considerar detecção de falha e failover.
 > 
-> **Como raciocinar:** Calcular downtime permitido (8.76 horas/ano para 99.9%), identificar componentes críticos, implementar redundância com health checks e failover automático, considerar replicaçāo de dados e estratégias de backup.
+> **Como raciocinar:** Calcular downtime permitido (8.76 horas/ano para 99.9%), identificar componentes críticos, implementar redundância com health checks e failover automático, considerar replicação de dados e estratégias de backup.
 
 ### confiabilidade
 **O que é?** A capacidade do sistema de realizar suas funções requeridas sob condições especificadas por um período de tempo especificado.
@@ -843,7 +843,7 @@ def create_app():
 - Amostrar traces quando volume for muito alto para evitar overhead excessivo
 
 **Quais são as alternativas?**
-- Dependência apenas de relatós de usuários para detectar problemas
+- Dependência apenas de relatos de usuários para detectar problemas
 - Monitoramento básico de uptime sem visibilidade interna
 - Logging não estruturado que dificulta análise automatizada
 - Métricas insuficientes ou mal escolhidas que não reflectem realidade do sistema
@@ -993,7 +993,7 @@ Facilidade com que o sistema pode ser modificado para corrigir defeitos, melhora
 Capacidade de adicionar nova funcionalidade sem danificar existente.
 
 #### testabilidade
-Facilidade com que o sistema pode ser testado para verificar se cumple com requisitos específicados.
+Facilidade com que o sistema pode ser testado para verificar se cumpre com requisitos especificados.
 
 #### portabilidade
 Capacidade de ser transferido de um ambiente para outro.

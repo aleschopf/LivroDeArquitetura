@@ -174,7 +174,7 @@ Se qualquer serviço falhar, publica evento de falha que dispara compensações 
 - **Complexidade de compensação**: Construir operações de compensação corretas pode ser difícil ou impossível (ex: enviar e-mail não pode ser verdadeiramente desfeito)
 - **Necessidade de idempotência**: Operações e compensações devem ser idempotentes para lidar com repetições
 - **Janela de vulnerabilidade**: Período entre etapa e sua compensação onde ações externas podem observar estado inconsistente
-- **Difficulty em regras de negócio complexas**: Algumas regras de negócio podem abranger múltiplas etapas e serem difíceis de enforçar com compensações
+- **Dificuldade em regras de negócio complexas**: Algumas regras de negócio podem abranger múltiplas etapas e serem difíceis de impor com compensações
 
 ### Quando usar
 - Operações de longa duração (horas/dias)

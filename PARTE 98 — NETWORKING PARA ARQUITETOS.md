@@ -74,7 +74,7 @@ Entender redes é fundamental para arquitetos de software porque:
 - **Consciência de latência** - Projeto que minimiza chamadas de rede e otimiza para latência esperada
 - **Tolerância a partições** - Capacidade de continuar operando mesmo quando partes da rede estão indisponíveis
 - **Uso eficiente de banda** - Minimização de dados transmitidos através de compressão, *batching* e *caching*
-- **Segurança em camadas** - Criptografia, autenticação e autorização apropriadas em differentes níveis
+- **Segurança em camadas** - Criptografia, autenticação e autorização apropriadas em diferentes níveis
 - **Observabilidade de rede** - Instrumentação adequada para monitorar métricas de rede (latência, perda, banda)
 - **Escalabilidade de rede** - Capacidade de aumentar capacidade de comunicação conforme necessário
 - **Gerenciamento de conexões** - Uso eficiente de conexões (*keep-alive*, *pooling*, multiplexação)
@@ -497,7 +497,7 @@ Entender redes é fundamental para arquitetos de software porque:
   - Arquitetura de armazenamento de séries temporais otimizada para alta taxa de escrita e consulta eficiente de intervalos de tempo
   - Uso de protocolos de telemetria leve (MQTT, CoAP) para comunicação entre borda e nuvem com qualidade de serviço configurável
   - Implementação de detecção de anomalias em tempo real usando estatística simples e aprendizado de máquina leve em borda
-  - Arquitetura de visualização e painel de controle personalizável para differentes papéis (operador, gerente, engenheiro de manutenção)
+  - Arquitetura de visualização e painel de controle personalizável para diferentes papéis (operador, gerente, engenheiro de manutenção)
   - Sistema de gerenciamento de alarmes e eventos com priorização, notificação e escalonamento baseados em gravidade e urgência
   - Integração com sistemas de controle existentes (SCADA, DCS, PLCs) através de *gateways* e adaptadores de protocolo
   - Arquitetura de segurança em profundidade com segmentação de rede, *firewalls* de aplicação e monitoramento de tráfego industrial

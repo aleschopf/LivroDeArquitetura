@@ -506,7 +506,7 @@ Além das estruturas gerais, existem técnicas específicas que podem ser aplica
 - **Padrões e Táticas para Performance**: Caching, assincronismo, pooling, algoritmos eficientes, etc.
 - **Padrões e Táticas para Disponibilidade**: Redundância, failover, replicação, checkpointing, etc.
 - **Padrões e Táticas para Segurança**: Autenticação, autorização, criptografia, validação de entrada, princípio do menor privilégio, etc.
-- **Padrões e Táticas para Escalabilidade**: Partitioning, sharding, load balancing, estatelessness, etc.
+- **Padrões e Táticas para Escalabilidade**: Partitioning, sharding, load balancing, *statelessness*, etc.
 - **Padrões e Táticas para Usabilidade**: Design centrado no usuário, consistência, feedback, simplicidade, tolerância a erros, etc.
 - **Padrões e Táticas para Manutenibilidade**: Baixo acoplamento, alta coesão, padrões de projeto, convenções de codificação, documentação, testabilidade, etc.
 - **Padrões e Táticas para Testabilidade**: Controle, observabilidade, isolamento, injeção de dependência, simplicidade, etc.

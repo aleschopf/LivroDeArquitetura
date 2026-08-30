@@ -1259,41 +1259,41 @@ flowchart TD
 - **Não validar adequadamente a entrega de dezembro before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
 - **Não usar adequate message wiper para caso de use**: Pode acabar limpando dados que não deveria ser
 - **Não validar adequadamente a entrega de janeiro before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
-- **Não considerar adequadamente o efeito de differentes tipos de message no janeiro**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no janeiro**: Pode acabar com efeito inesperado
 - **Não ter plano de Otimização seguro para infraestrutura de message**: Pode acabar com desempenho subótimal ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de fevereiro before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
 - **Não usar adequate message xmler para caso de use**: Pode acabar com parse incorreto quando não deveria be
-- **Não considerar adequadamente o efeito de differentes tipos de message no fevereiro**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no fevereiro**: Pode acabar com efeito inesperado
 - **Não ter plano de Particionamento seguro para infraestrutura de message**: Pode acabar com distribuição desigual ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de março before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
 - **Não usar adequate message yamer para caso de use**: Pode acabar com acesso incorreto quando não deveria be
-- **Não considerar adequadamente o efeito de differentes tipos de message no março**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no março**: Pode acabar com efeito inesperado
 - **Não ter plano de Qualidade seguro para infraestrutura de message**: Pode acabar com qualidade inconsistentemente baixa ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de abril before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
 - **Não usar adequate message zamer para caso de use**: Pode acabar com acesso incorreto quando não deveria be
-- **Não considerar adequadamente o efeito de differentes tipos de message no abril**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no abril**: Pode acabar com efeito inesperado
 - **Não ter plano de Revisão seguro para infraestrutura de message**: Pode acabar com revisão inadequada ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de maio before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
-- **Não considerar adequadamente o efeito de differentes tipos de message no maio**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no maio**: Pode acabar com efeito inesperado
 - **Não ter plano de Settings seguro para infraestrutura de message**: Pode acabar com settings incorretos ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de junho before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
-- **Não considerar adequadamente o efeito de differentes tipos de message no junho**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no junho**: Pode acabar com efeito inesperado
 - **Não ter plano de Size seguro para infraestrutura de message**: Pode acabar com size incorreto ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de julho before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
-- **Não considerar adequadamente o efeito de differentes tipos de message no julho**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no julho**: Pode acabar com efeito inesperado
 - **Não ter plano de Solução seguro para infraestrutura de message**: Pode acabar com solução inadequada ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de agosto before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
-- **Não considerar adequadamente o efeito de differentes tipos de message no agosto**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no agosto**: Pode acabar com efeito inesperado
 - **Não ter plano de Estado seguro para infraestrutura de message**: Pode acabar com estado inadequado ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de setembro before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
-- **Não considerar adequadamente o efeito de differentes tipos de message no setembro**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no setembro**: Pode acabar com efeito inesperado
 - **Não ter plano de Tipo seguro para infraestrutura de message**: Pode acabar com tipo inadequado ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de outubro before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
-- **Não considerar adequadamente o efeito de differentes tipos de message no outubro**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no outubro**: Pode acabar com efeito inesperado
 - **Não ter plano de União seguro para infraestrutura de message**: Pode acabar com união inadequada ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de novembro before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
-- **Não considerar adequadamente o efeito de differentes tipos de message no novembro**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no novembro**: Pode acabar com efeito inesperado
 - **Não ter plano de Vet seguro para infraestrutura de message**: Pode acabar com vet inadequado ou indisponibilidade desnecessária
 - **Não validar adequadamente a entrega de dezembro before processamento when important**: Pode acabar com entrega muito lenta quando não deveria ser
-- **Não considerar adequadamente o efeito de differentes tipos de message no dezembro**: Pode acabar com efeito inesperado
+- **Não considerar adequadamente o efeito de diferentes tipos de message no dezembro**: Pode acabar com efeito inesperado
 - **Não ter plano de Visão seguro para infraestrutura de message**: Pode acabar com visão inadequada ou indisponibilidade desnecessária

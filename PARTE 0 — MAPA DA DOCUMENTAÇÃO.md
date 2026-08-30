@@ -396,7 +396,7 @@ Cada seção importante contém um indicador de nível de dificuldade:
 - **HTTP/3**: Versão baseada em QUIC do HTTP
 - **QUIC**: Protocolo de transporte baseado em UDP
 - **Server-Sent Events (SSE)**: Streaming unidirecional servidor→cliente
-- **WebSockets**: Comunação full-duplex persistente
+- **WebSockets**: Comunicação full-duplex persistente
 - **Long Polling**: Técnica de simulação de push com polling frequente
 - **WebRTC**: Comunicação em tempo real peer-to-peer no navegador
 - **MQTT**: Protocolo leve para IoT e mensagens pub/sub
@@ -634,9 +634,9 @@ Cada seção importante contém um indicador de nível de dificuldade:
 - **Volume Confiabilidade**: Durabilidade e disponibilidade de storage
 - **Volume Scalability**: Capacidade de aumentar capacidade de storage
 - **Volume Portability**: Facilidade de mover volume entre sistemas
-- **Volume Compatibilidade**: Funcionamento com differentes sistemas e versões
+- **Volume Compatibilidade**: Funcionamento com diferentes sistemas e versões
 - **Volume Management Interface**: API para gerenciamento programático de volumes
-- **Container Networking**: Comunação entre containers e com o mundo externo
+- **Container Networking**: Comunicação entre containers e com o mundo externo
 - **Bridge Network**: Rede padrão Docker para comunicação entre containers
 - **Host Network**: Uso direto da rede de host no container
 - **Overlay Network**: Rede múltipla-host para swarm mode e serviços

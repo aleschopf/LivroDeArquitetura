@@ -65,10 +65,10 @@ Arquitetura de Sistemas com IA refere-se ao projeto estrutural de sistemas de so
 
 #### 3. **Projetar para Experimentação e Iteração**
 - **Ambientes isolados** - Espaços seguros para testar novas abordagens sem afetar produção
-- **Métricas comparativas** - *Framework* para avaliar performance de differentes modelos objetivamente
+- **Métricas comparativas** - *Framework* para avaliar performance de diferentes modelos objetivamente
 - **Controle de versão** - Versionamento de código, dados, configurações e modelos
 - ***Rollback* fácil** - Capacidade de voltar rapidamente para versões anteriores conhecidas como boas
-- **Teste A/B de modelos** - Comparar desempenho de differentes modelos em tráfego real
+- **Teste A/B de modelos** - Comparar desempenho de diferentes modelos em tráfego real
 - ***Feature flags* para IA** - Capacidade de ativar/desativar componentes de IA ou rotas de modelo
 
 #### 4. **Considerar Arquiteturas Híbridas e Distribuídas**
@@ -160,12 +160,12 @@ Arquitetura de Sistemas com IA refere-se ao projeto estrutural de sistemas de so
 - ***Dashboards* de métricas** - Visualização de performance de modelo, qualidade de dados e saúde do sistema
 - **Alertas e notificações** - Configuração de *triggers* para deriva de dados, degradação de modelo ou falhas de sistema
 - ***Logs* e *traces*** - Estrutura de *logs* para depuração e auditoria de decisões de IA
-- **Distribuição de latência** - Histogramas mostrando performance de inferência sob differentes condições
+- **Distribuição de latência** - Histogramas mostrando performance de inferência sob diferentes condições
 - **Uso de recursos** - Gráficos de consumo de CPU, GPU, memória, armazenamento e rede ao longo do tempo
 - **Curvas de aprendizado** - Visualização de performance do modelo durante treinamento e validação
 
 #### 4. **Governança e Segurança**
-- **Matriz de controle de acesso** - Papéis e permissões para differentes operações em modelos e dados
+- **Matriz de controle de acesso** - Papéis e permissões para diferentes operações em modelos e dados
 - **Fluxo de aprovação** - Etapas desde proposta até *deploy* em produção com revisões necessárias
 - **Mapa de riscos e mitigações** - Identificação de ameaças específicas e controles implementados
 - **Linhagem de modelo** - Rastreamento de origem, transformações e uso de cada versão de modelo
@@ -304,7 +304,7 @@ Arquitetura de Sistemas com IA refere-se ao projeto estrutural de sistemas de so
 - **Abordagem**:
   - Arquitetura *edge-to-cloud* com pré-processamento em dispositivos de borda para redução de volume de dados e detecção inicial de anomalias
   - Modelos de séries temporais (LSTM, Prophet) treinados em dados históricos de vibração, temperatura, corrente e pressão
-  - Sistema de janelamento e extração de características adaptado para differentes tipos de equipamento e modos de falha
+  - Sistema de janelamento e extração de características adaptado para diferentes tipos de equipamento e modos de falha
   - *Pipeline* de treinamento semanal incorporando novos dados de falhas e manutenções realizadas
   - Serviço de inferência em borda para alertas imediatos e serviço em nuvem para análise profunda e planejamento de manutenção
   - Integração com sistema de ordem de serviço para geração automática de trabalho baseado em predições de alta confiança
@@ -357,7 +357,7 @@ Arquitetura de Sistemas com IA refere-se ao projeto estrutural de sistemas de so
   - Escalabilidade para atender a múltiplos hospitais na rede com instâncias regionais e centralização de aprendizado
 - **Lições Aprendidas**:
   - Para aplicações clínicas, explicabilidade e confiança são tão importantes quanto acurácia bruta
-  - Arquiteturas multifusão que combinam differentes tipos de dados (texto, estruturado, imagem) frequentemente *outperform* abordagens de modalidade única
+  - Arquiteturas multifusão que combinam diferentes tipos de dados (texto, estruturado, imagem) frequentemente *outperform* abordagens de modalidade única
   - Integração suave com fluxos de trabalho existentes é crucial para adoção por profissionais de saúde sobrecarregados
   - Sistemas de explicabilidade constroem confiança e permitem intervenção clínica quando necessário
   - *Feedback loop* clínico no processo de treinamento cria melhoria contínua alinhada com práticas médicas reais
@@ -438,7 +438,7 @@ Através da aplicação consciente dos princípios e técnicas discutidos nesta 
 - **Alinhados com negócio** - Focando em resolver problemas reais e entregar valor mensurável em vez de perseguir sofisticação técnica por si mesma
 - **Responsáveis e transparentes** - Incorporando considerações de justiça, explicabilidade e impacto social desde o projeto inicial
 
-Os estudos de caso demonstram que arquiteturas bem projetadas de sistemas com IA produzem resultados tangíveis em differentes domínios: desde plataformas de *streaming* que melhoram engajamento do usuário através de recomendações personalizadas, sistemas financeiros que reduzem perdas por fraude em tempo real, plantas industriais que evitam paradas caras através de manutenção preditiva até redes hospitalares que aprimoram triagem clínica e salvam vidas através de detecção precoce de condições críticas.
+Os estudos de caso demonstram que arquiteturas bem projetadas de sistemas com IA produzem resultados tangíveis em diferentes domínios: desde plataformas de *streaming* que melhoram engajamento do usuário através de recomendações personalizadas, sistemas financeiros que reduzem perdas por fraude em tempo real, plantas industriais que evitam paradas caras através de manutenção preditiva até redes hospitalares que aprimoram triagem clínica e salvam vidas através de detecção precoce de condições críticas.
 
 As tendências futuras apontam para maior adoção de abordagens nativas em nuvem, arquiteturas orientadas a eventos e *streaming*, computação heterogênea e distribuída, foco crescente em confiança e responsabilidade, e exploração de novos paradigmas de computação que irão além das abordagens atuais de IA.
 

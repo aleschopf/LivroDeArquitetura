@@ -82,7 +82,7 @@ Sistemas de Tempo Real são sistemas de software onde a correta operação depen
 - **Técnicas de compressão de tempo** - Otimizações de código, uso de hardware especializado, pré-computação
 - ***Overrun handling* definido** - Políticas claras para o que fazer quando uma tarefa excede seu tempo alocado
 - ***Graceful degradation*** - Estratégias para reduzir funcionalidade mantendo segurança quando sobrecarregado
-- **Modos de operação múltiplos** - Normal, degradado, emergência com differentes conjuntos de tarefas e prioridades
+- **Modos de operação múltiplos** - Normal, degradado, emergência com diferentes conjuntos de tarefas e prioridades
 - ***Partitioning* temporal e espacial** - Divisão de tempo de CPU e recursos entre aplicações críticas e não-críticas
 - **Reserva de recursos para tratamento de exceções** - Garantir capacidade de resposta a falhas e condições de erro
 - **Balanceamento de carga *offline*** - Distribuição de tarefas entre múltiplos processadores ou núcleos baseada em análise
@@ -161,7 +161,7 @@ Sistemas de Tempo Real são sistemas de software onde a correta operação depen
 - **Rastreabilidade de requisitos temporais** - *Link* direto entre requisitos de negócio e propriedades verificadas da arquitetura
 - **Evidência de análise de *schedulability*** - Documentação completa de premissas (*assumptions*), cálculos e resultados
 - **Relatórios de medição em hardware** - Dados coletados de osciloscópios, analisadores e ferramentas de *tracing*
-- **Planos de teste de *timing*** - Estratégias para validar propriedades temporais em differentes níveis (unitário, sistema, aceitação)
+- **Planos de teste de *timing*** - Estratégias para validar propriedades temporais em diferentes níveis (unitário, sistema, aceitação)
 - **Estratégias de mitigação de riscos identificados** - Planos para abordar limitações descobertas durante análise e teste
 - **Configuração para reprodução de condições críticas** - Capacidade de recriar situações de pior caso para validação
 - **Integração com processos de certificação** - Alinhamento com padrões como ISO 26262, DO-178C, IEC 61508, etc.
@@ -178,11 +178,11 @@ Sistemas de Tempo Real são sistemas de software onde a correta operação depen
 - ***Markers* de pontos de sincronização** - Indicar onde tarefas esperam por eventos, dados ou outras tarefas
 
 #### 2. **Análise de Utilização e *Schedulability***
-- **Gráficos de utilização por núcleo/processador** - Percentual de tempo ocupado por differentes tipos de tarefa
-- **Análise de teste de utilização limite** - Visualização de proximidade aos limites teóricos de differentes algoritmos
+- **Gráficos de utilização por núcleo/processador** - Percentual de tempo ocupado por diferentes tipos de tarefa
+- **Análise de teste de utilização limite** - Visualização de proximidade aos limites teóricos de diferentes algoritmos
 - **Diagramas de *busy period*** - Períodos contínuos onde o processador está ocupado executando tarefas de um conjunto
 - **Análise de resposta tempo *worst-case*** - Cálculo e visualização do maior tempo possível desde lançamento até conclusão
-- **Gráficos de *slack time* disponível** - Tempo livre disponível em differentes pontos do esquema de escalonamento
+- **Gráficos de *slack time* disponível** - Tempo livre disponível em diferentes pontos do esquema de escalonamento
 - **Visualização de efeitos de bloqueio** - Impacto de prioridade invertida ou recursos compartilhados na *schedulability*
 - **Análise de sensibilidade a parâmetros** - Como mudanças em período, WCET ou prioridade afetam a *schedulability*
 

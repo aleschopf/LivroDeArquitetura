@@ -12,7 +12,7 @@ Esta parte apresenta uma lista de verificação abrangente para arquitetos de so
 ## Fundamentos
 
 ### Por que usar uma lista de verificação de arquitetura?
-- **Consistência**: Garante que nenhum aspecto fundamental seja esquecido em differentes projetos.
+- **Consistência**: Garante que nenhum aspecto fundamental seja esquecido em diferentes projetos.
 - **Qualidade**: Ajuda a identificar riscos, lacunas (*gaps*) e oportunidades de melhoria antecipadamente.
 - **Comunicação**: Fornece uma linguagem comum entre arquitetos, desenvolvedores e *stakeholders*.
 - **Auditoria e conformidade**: Facilita evidências para revisões internas e externas.
@@ -104,7 +104,7 @@ Para cada item, considere um dos seguintes *status*:
 - [ ] **Degradação graciosa (*graceful degradation*)**: Sistema continua operando com funcionalidade reduzida quando partes falham?
 - [ ] **Idempotência considerada**: Operações críticas são idempotentes para permitir *retries* seguros?
 - [ ] **Limitação de taxa (*rate limiting*) aplicada**: Proteção contra sobrecarga e abuso em pontos de entrada?
-- [ ] **Isolamento de falhas por bulkhead**: Recursos (*pool* de *threads*, conexões) isolados entre differentes tipos de carga?
+- [ ] **Isolamento de falhas por bulkhead**: Recursos (*pool* de *threads*, conexões) isolados entre diferentes tipos de carga?
 - [ ] **Análise de pontos únicos de falha (SPOF) realizada**: Nenhum componente único cuja falha derrube todo o sistema?
 - [ ] **Testes de injeção de falha (*chaos engineering*) planejados ou realizados**: Experimentos controlados para validar resiliência?
 

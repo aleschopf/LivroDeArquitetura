@@ -610,7 +610,7 @@ Evite over-engineering em APIs quando:
 - **Tipos de dados ambíguos**: String que às vezes é número, objeto que às vezes é array
 - **Nenhum schema formal**: Reliance em documentação humana que fica desatualizada
 - **Campos opcionais não documentados**: Dificulta consumo correto da API
-- **Valores default não específicados**: Comportamento impreciso quando campos são omitidos
+- **Valores default não especificados**: Comportamento impreciso quando campos são omitidos
 - **Nenhum exemplo de request/response**: Torna difícil entender uso correto
 - **Enums não documentados**: Valores permitidos não são especificados claramente
 - **Unidades não especificadas**: É bytes ou kilobytes? Segundos ou milissegundos?
@@ -745,7 +745,7 @@ Evite over-engineering em APIs quando:
 - ✅ Recursos têm modelo naturalmente hierárquico ou baseado em entidades
 - ✅ Operações se mapeiam bem para CRUD (Create, Read, Update, Delete)
 - ✅ Cacheabilidade é importante (HTTP caching infrastructure funciona bem)
-- ✅ Estatelessness é desejado para facilitar horizontal scaling
+- ✅ *Statelessness* é desejado para facilitar horizontal scaling
 - ✅ Amplo suporte de ferramentas (Postman, Insomnia, Swagger, etc.)
 - ✅ Equipe já familiarizada com conceitos HTTP e REST
 - ✅ Necessidade de interoperabilidade com amplia gama de clientes

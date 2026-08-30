@@ -116,7 +116,7 @@ Dívida técnica é um conceito metáfora que descreve o custo de retrabalho (re
 #### 4. Prevenção de Nova Dívida
 - **Definition of Done Rigorosa** - Incluir qualidade de código, testes, documentação
 - **Code Review Obrigatório** - Todos os cambios passam por revisão antes do merge
-- **Padrões e Líderes Técnicos** - Estabelecer e enforçar padrões de codificação
+- **Padrões e Líderes Técnicos** - Estabelecer e aplicar padrões de codificação
 - **Pair Programming e Mob Programming** - Compartilhamento de conhecimento em tempo real
 - **Arquitetura Evolutiva** - Design que facilita mudanças futuras
 - **Investimento em Ferramentas** - Linters, formatadores, analisadores estáticos integrados ao CI

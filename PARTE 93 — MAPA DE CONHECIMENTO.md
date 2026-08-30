@@ -348,7 +348,7 @@ Um mapa de conhecimento em arquitetura de software é uma representação visual
 - **Previsão de necessidades futuras de conhecimento** - Baseado em tendências tecnológicas, *roadmaps* de produto e planos de negócio
 - **Simulação de cenários "e se?" para conhecimento** - Mostrando como lacunas em determinada área afetariam capacidade de lidar com cenários específicos
 - **Integração com planejamento de capacidade tecnológica** - Antecipando necessidades de conhecimento baseado em crescimento esperado de negócio e tecnologia
-- ***Feedback* de mercado de trabalho** - Ajustando recompensas baseado em valor de mercado de differentes competências arquiteturais
+- ***Feedback* de mercado de trabalho** - Ajustando recompensas baseado em valor de mercado de diferentes competências arquiteturais
 - **Aprendizado por reforço na curadoria do conhecimento** - Sistema melhorando sugestões baseado em quais recomendações levam a melhor aplicação prática
 
 ## Resumo

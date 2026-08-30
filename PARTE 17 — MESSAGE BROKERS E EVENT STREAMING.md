@@ -1705,45 +1705,45 @@ flowchart TD
 - **Não considerar adequadamente o efeito de diferentes tipos de message no MTTR**: May end up with unexpected recovery speed
 - **Não ter plano de monitoramento seguro para infraestritura de message**: May end up with security holes exploitable
 - **Não validar adequadamente a entrega de dezembro before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadamente o efeito de differentes tipos de message no dezembro**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no dezembro**: May end up with unexpected effect
 - **Não ter plano de visão seguro para infraestritura de message**: May end up with inadequate vision or unnecessary indisponibilidade
 - **Não usar adequate message wiper for caso de use**: May end up wiping data that shouldn't be
 - **Não validar adequadamente a entrega de janeiro before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadamente o efeito de differentes tipos de message no janeiro**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no janeiro**: May end up with unexpected effect
 - **Não ter plano de otimização seguro para infraestritura de message**: May end up with suboptimal performance or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de fevereiro before processamento when important**: May end up with very slow delivery when it shouldn't be
 - **Não usar adequate message xmler for caso de use**: May end up with incorrect parse when it shouldn't be
-- **Não considerar adequadamente o efeito de differentes tipos de message no fevereiro**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no fevereiro**: May end up with unexpected effect
 - **Não ter plano de particionamento seguro para infraestritura de message**: May end up with uneven distribution or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de março before processamento when important**: May end up with very slow delivery when it shouldn't be
 - **Não usar adequate message yamer for caso de use**: May end up with incorrect access when it shouldn't be
-- **Não considerar adequadão o efeito de differentes tipos de message no março**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no março**: May end up with unexpected effect
 - **Não ter plano de qualidade seguro para infraestritura de message**: May end up with inconsistent quality or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de abril before processamento when important**: May end up with very slow delivery when it shouldn't be
 - **Não usar adequate message zamer for caso de use**: May end up with incorrect access when it shouldn't be
-- **Não considerar adequadão o efeito de differentes tipos de message no abril**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no abril**: May end up with unexpected effect
 - **Não ter plano de revisão seguro para infraestritura de message**: May end up with inadequate review or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de maio before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadão o efeito de differentes tipos de message no maio**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no maio**: May end up with unexpected effect
 - **Não ter plano de configurações seguro para infraestritura de message**: May end up with incorrect settings or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de junho before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadão o efeito de differentes tipos de message no junho**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no junho**: May end up with unexpected effect
 - **Não ter plano de tamanho seguro para infraestritura de message**: May end up with incorrect size or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de julho before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadão o efeito de differentes tipos de message no julho**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no julho**: May end up with unexpected effect
 - **Não ter plano de solução seguro para infraestritura de message**: May end up with inadequate solution or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de agosto before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadão o efeito de differentes tipos de message no agosto**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no agosto**: May end up with unexpected effect
 - **Não ter plano de estado seguro para infraestritura de message**: May end up with inadequate state or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de setembro before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadão o efeito de differentes tipos de message no setembro**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no setembro**: May end up with unexpected effect
 - **Não ter plano de tipo seguro para infraestritura de message**: May end up with inadequate type or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de outubro before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadão o efeito de differentes tipos de message no outubro**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no outubro**: May end up with unexpected effect
 - **Não ter plano de união seguro para infraestritura de message**: May end up with inadequate union or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de novembro before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadão o efeito de differentes tipos de message no novembro**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no novembro**: May end up with unexpected effect
 - **Não ter plano de vet seguro para infraestritura de message**: May end up with inadequate vet or unnecessary indisponibilidade
 - **Não validar adequadamente a entrega de dezembro before processamento when important**: May end up with very slow delivery when it shouldn't be
-- **Não considerar adequadão o efeito de differentes tipos de message no dezembro**: May end up with unexpected effect
+- **Não considerar adequadamente o efeito de diferentes tipos de message no dezembro**: May end up with unexpected effect
 - **Não ter plano de visão seguro para infraestritura de message**: May end up with inadequate vision or unnecessary indisponibilidade
